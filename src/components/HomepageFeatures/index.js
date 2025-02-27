@@ -8,7 +8,9 @@ const {Meta} = Card;
 
 // import useBaseUrl from '@docusaurus/useBaseUrl';
 
-import resultList from '@site/static/data/sample.json';
+import resultList from '@site/static/data/sample_result.json';
+// import dataList from '@site/static/data/sample_dataset.json';
+import dataList from '@site/static/data/data500.json';
 
 const uniqueModels = [...new Set(resultList.map(record => record.model))];
 const modelFilters = uniqueModels.map((model) => ({text: model, value: model}));
@@ -19,6 +21,7 @@ const orgFilters = uniqueOrgs.map((org) => ({text: org, value: org}));
 const defaultTitle = () => 'Leaderboard';
 
 export default function HomepageFeatures() {
+    const initRandomData = dataList[Math.floor(Math.random() * dataList.length)];
     const [bordered, setBordered] = useState(false);
     const [loading, setLoading] = useState(false);
     const [size, setSize] = useState('middle');
@@ -28,6 +31,7 @@ export default function HomepageFeatures() {
     const [searchText, setSearchText] = useState('');
     const [searchedColumn, setSearchedColumn] = useState('');
     const searchInput = useRef(null);
+    const [randomData, setRandomData] = useState(initRandomData);
 
     const columns = [
         {
@@ -94,6 +98,10 @@ export default function HomepageFeatures() {
         ellipsis,
     }));
 
+    const changeRandomData = () => {
+        setRandomData(dataList[Math.floor(Math.random() * dataList.length)])
+    };
+
     return (
         <section className={styles.features}>
             <div className="container">
@@ -124,6 +132,20 @@ export default function HomepageFeatures() {
                     <Col span={11}>
                         <Divider orientation="left">Metrics</Divider>
                         <p>hehe</p>
+                    </Col>
+                </Row>
+                <Divider orientation="left">Peek into Our Dataset</Divider>
+                <Row>
+                    <Col span={6} style={{ textAlign: "center"}}>
+                        <Button type="primary" size="large" onClick={changeRandomData}>
+                            Click me to get some shitty advice!
+                        </Button>
+                    </Col>
+                    <Col span={2}></Col>
+                    <Col span={16} style={{ background: "#EFF2F5", padding: "16px"}}>
+                        <p>
+                            {randomData}
+                        </p>
                     </Col>
                 </Row>
                 </div>
