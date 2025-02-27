@@ -23,39 +23,55 @@ const orgFilters = uniqueOrgs.map((org) => ({text: org, value: org}));
 
 const defaultTitle = () => 'Leaderboard';
 
-function getRadarChartData(data) {
-    // Sort the data descending by "f1" and take the top 3 objects
-    const topThree = data
-        .sort((a, b) => b.f1 - a.f1)
-        .slice(0, 3);
+const radarTopN = 5;
 
-    // List of metrics to include in the output
+function getRadarChartData(data) {
+    // 1. Sort data descending by f1 score
+    const sortedData = data.sort((a, b) => b.f1 - a.f1);
+
+    // 2. Select top 3 items
+    const topData = sortedData.slice(0, radarTopN);
+
+    // 3. Define the metrics to process
     const metrics = ["false_positive", "false_negative", "fallacy_label_score", "reasoning_score"];
 
-    // Build the output array where each element corresponds to a metric
-    const result = metrics.map(metric => {
-        // Start with an object that includes the metric name
-        const obj = { metric };
+    const result = [];
 
-        // For each top data entry, add a key in the format "org-model" with its corresponding metric value
-        topThree.forEach(item => {
-            const key = `${item.org}-${item.model}`;
-            obj[key] = item[metric];
+    // 4. Process each metric
+    metrics.forEach(metric => {
+        // Extract metric values from the top data
+        const values = topData.map(item => item[metric]);
+        const minVal = Math.min(...values);
+        const maxVal = Math.max(...values);
+
+        const metricObj = { metric };
+
+        topData.forEach(item => {
+            const value = item[metric];
+            let normalized;
+            // If all values are equal, assign normalized value 1 (or you could choose 0)
+            if (maxVal - minVal === 0) {
+                normalized = 1;
+            } else {
+                normalized = 0.2 + ((value - minVal) / (maxVal - minVal)) * 0.8;
+            }
+            // Create a key combining org and model
+            metricObj[`${item.org}-${item.model}`] = normalized;
         });
 
-        return obj;
+        result.push(metricObj);
     });
 
     return result;
 }
 
-function getTop3F1ScoreIdentifiers(data) {
+function getTopF1ScoreIdentifiers(data) {
     // Create a shallow copy and sort descending by f1 score
     const sortedData = data.slice().sort((a, b) => b.f1 - a.f1);
-    // Select the top 3 objects
-    const top3 = sortedData.slice(0, 3);
+    // Select the top N objects
+    const topN = sortedData.slice(0, radarTopN);
     // Map each object to the formatted string "org-model"
-    return top3.map(item => `${item.org}-${item.model}`);
+    return topN.map(item => `${item.org}-${item.model}`);
 }
 
 export default function HomepageFeatures() {
@@ -142,7 +158,7 @@ export default function HomepageFeatures() {
 
     const radarChartData = getRadarChartData(resultList);
 
-    const topIdentifiers = getTop3F1ScoreIdentifiers(resultList);
+    const topIdentifiers = getTopF1ScoreIdentifiers(resultList);
 
     console.log(radarChartData);
     console.log(topIdentifiers);
@@ -212,7 +228,7 @@ export default function HomepageFeatures() {
                     </Col>
                     <Col span={1}></Col>
                     <Col span={8}>
-                        <Divider orientation="left">Top 3 F1 Score Models</Divider>
+                        <Divider orientation="left">Top {radarTopN} F1 Score Models (metrics values normalized to 0.2-1)</Divider>
                         <div style={{height: "300px"}}>
                             <MyResponsiveRadar radarChartData={radarChartData} />
                         </div>
