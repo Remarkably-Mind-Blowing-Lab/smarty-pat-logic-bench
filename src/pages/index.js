@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
+import {Col, Row, Image} from 'antd';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -12,11 +13,24 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        {/*<div className={styles.buttons}>*/}
+          <Row>
+              <Col span={4}>
+                  <Image
+                      width={200}
+                      src="img/smarty-pat-no-bg.webp"
+                  />
+              </Col>
+              <Col span={1}></Col>
+              <Col span={19}>
+                  <Heading as="h1" className="hero__title" style={{textAlign: "left"}}>
+                      {siteConfig.title}
+                  </Heading>
+                  <p className="hero__subtitle" style={{textAlign: "left"}}>{siteConfig.tagline}</p>
+              </Col>
+          </Row>
+
+
+          {/*<div className={styles.buttons}>*/}
         {/*  <Link*/}
         {/*    className="button button--secondary button--lg"*/}
         {/*    to="/docs/intro">*/}
