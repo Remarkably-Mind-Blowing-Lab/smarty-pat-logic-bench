@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmarty_pat_logic_bench_github_io=self.webpackChunksmarty_pat_logic_bench_github_io||[]).push([[1903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/smarty-pat-logic-bench/blog","blogTitle":"Blog","authorsListPath":"/smarty-pat-logic-bench/blog/authors"}')}}]);
