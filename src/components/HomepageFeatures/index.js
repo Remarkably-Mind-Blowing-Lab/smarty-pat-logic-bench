@@ -186,7 +186,7 @@ export default function HomepageFeatures() {
 
     return (
         // <section className={styles.features}>
-            <div className="container">
+            <div className="container" style={{marginBottom: "16px"}}>
                 <Row>
                     <Col span={15}>
                         <Divider orientation="left">Leaderboard</Divider>
