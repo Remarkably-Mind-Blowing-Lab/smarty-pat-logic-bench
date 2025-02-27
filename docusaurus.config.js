@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Socrates or Shitty-Advisers? Can LLMs really understand logic?',
-  tagline: 'Smarty-Pat: An LLM Logic Reason Benchmark',
+  title: 'Socrates or Smarty Pants? Can LLMs really understand logic?',
+  tagline: 'SS-Bench: An LLM Logic Reason Benchmark',
   favicon: 'img/smarty-pat-no-bg.webp',
 
   // Set the production url of your site here
@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Smarty-Pat',
+        title: 'SS-Bench',
         logo: {
           alt: 'My Site Logo',
           src: 'img/smarty-pat-no-bg.webp',
