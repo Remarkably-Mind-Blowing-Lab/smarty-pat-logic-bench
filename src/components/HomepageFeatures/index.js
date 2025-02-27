@@ -33,7 +33,7 @@ function getRadarChartData(data) {
     const topData = sortedData.slice(0, radarTopN);
 
     // 3. Define the metrics to process
-    const metrics = ["false_positive", "false_negative", "fallacy_label_score", "reasoning_score"];
+    const metrics = ["f1", "fallacy_label_score", "reasoning_score"];
 
     const result = [];
 
