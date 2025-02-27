@@ -9,7 +9,9 @@ const {Meta} = Card;
 
 // import useBaseUrl from '@docusaurus/useBaseUrl';
 
-import resultList from '@site/static/data/sample_result.json';
+// import resultList from '@site/static/data/sample_result.json';
+import resultList from '@site/static/data/result500.json';
+
 // import dataList from '@site/static/data/sample_dataset.json';
 import dataList from '@site/static/data/data500.json';
 
