@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Socrates or Shitty-Advisers? Can LLMs really understand logic?',
   tagline: 'Smarty-Pat: An LLM Logic Reason Benchmark',
-  favicon: 'img/smarty-pat.webp',
+  favicon: 'img/smarty-pat-no-bg.webp',
 
   // Set the production url of your site here
   url: 'https://remarkably-mind-blowing-lab.github.io',
@@ -79,7 +79,7 @@ const config = {
         title: 'Smarty-Pat',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/smarty-pat.webp',
+          src: 'img/smarty-pat-no-bg.webp',
         },
         items: [
           // {
