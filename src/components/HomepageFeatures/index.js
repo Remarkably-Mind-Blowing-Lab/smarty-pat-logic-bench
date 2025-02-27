@@ -186,9 +186,9 @@ export default function HomepageFeatures() {
 
     return (
         // <section className={styles.features}>
-            <div style={{ margin: "16px"}}>
+            <div className="container">
                 <Row>
-                    <Col span={14}>
+                    <Col span={15}>
                         <Divider orientation="left">Leaderboard</Divider>
                         <div style={{
                             // background: "#EFF2F5",
@@ -208,7 +208,7 @@ export default function HomepageFeatures() {
                             />
                         </div>
                     </Col>
-                    <Col span={2}></Col>
+                    <Col span={1}></Col>
                     <Col span={8}>
                         <Divider orientation="left">Top 3 F1 Score Models</Divider>
                         <div style={{height: "300px"}}>
