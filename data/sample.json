@@ -1,0 +1,42 @@
+[
+  {
+    "org": "UNSW",
+    "model": "haha_1",
+    "false_positive": 5.1,
+    "false_negative": 6.7,
+    "fallacy_label_score": 9.9,
+    "reasoning_score": 9,
+    "f1": 0.8,
+    "date": "2025-02-27"
+  },
+  {
+    "org": "NTU",
+    "model": "hehe_1",
+    "false_positive": 2.1,
+    "false_negative": 8.7,
+    "fallacy_label_score": 19.2,
+    "reasoning_score": 13,
+    "f1": 0.7,
+    "date": "2025-02-27"
+  },
+  {
+    "org": "FDU",
+    "model": "wawa_1",
+    "false_positive": 5.2,
+    "false_negative": 4.3,
+    "fallacy_label_score": 11.2,
+    "reasoning_score": 7,
+    "f1": 0.6,
+    "date": "2025-02-27"
+  },
+  {
+    "org": "CMU",
+    "model": "gege_1",
+    "false_positive": 6.7,
+    "false_negative": 8.2,
+    "fallacy_label_score": 15.3,
+    "reasoning_score": 14,
+    "f1": 0.5,
+    "date": "2025-02-27"
+  }
+]
