@@ -1,6 +1,6 @@
 [
     {
-      "org": "UNSW",
+      "org": "Meta",
       "model": "llama_3_1_405b",
       "false_positive": 0.2677514792899408,
       "false_negative": 0.02710843373493976,
@@ -10,7 +10,7 @@
       "date": "2025-02-27"
     },
     {
-      "org": "UNSW",
+      "org": "OpenAI",
       "model": "gpt_4o",
       "false_positive": 0.250381679389313,
       "false_negative": 0.036827195467422094,
@@ -20,7 +20,7 @@
       "date": "2025-02-27"
     },
     {
-      "org": "UNSW",
+      "org": "OpenAI",
       "model": "o3_mini",
       "false_positive": 0.19471947194719472,
       "false_negative": 0.03980099502487562,
@@ -30,7 +30,7 @@
       "date": "2025-02-27"
     },
     {
-      "org": "UNSW",
+      "org": "Anthropic",
       "model": "claude_3_5",
       "false_positive": 0.26766917293233083,
       "false_negative": 0.04956268221574344,
@@ -40,7 +40,7 @@
       "date": "2025-02-27"
     },
     {
-      "org": "UNSW",
+      "org": "Anthropic",
       "model": "claude_3_7",
       "false_positive": 1,
       "false_negative": 1,
