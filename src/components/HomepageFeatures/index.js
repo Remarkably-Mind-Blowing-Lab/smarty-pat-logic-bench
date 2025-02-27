@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 
 import {Card, Col, Row, Divider, Timeline, Space, Table, Tag, Form, Radio, Switch, List, Button, Input } from 'antd';
 import { PlusCircleOutlined, MinusCircleOutlined } from '@ant-design/icons';
+import { ResponsiveRadar } from '@nivo/radar'
 
 const {Meta} = Card;
 
@@ -19,6 +20,41 @@ const uniqueOrgs = [...new Set(resultList.map(record => record.org))];
 const orgFilters = uniqueOrgs.map((org) => ({text: org, value: org}));
 
 const defaultTitle = () => 'Leaderboard';
+
+function getRadarChartData(data) {
+    // Sort the data descending by "f1" and take the top 3 objects
+    const topThree = data
+        .sort((a, b) => b.f1 - a.f1)
+        .slice(0, 3);
+
+    // List of metrics to include in the output
+    const metrics = ["false_positive", "false_negative", "fallacy_label_score", "reasoning_score"];
+
+    // Build the output array where each element corresponds to a metric
+    const result = metrics.map(metric => {
+        // Start with an object that includes the metric name
+        const obj = { metric };
+
+        // For each top data entry, add a key in the format "org-model" with its corresponding metric value
+        topThree.forEach(item => {
+            const key = `${item.org}-${item.model}`;
+            obj[key] = item[metric];
+        });
+
+        return obj;
+    });
+
+    return result;
+}
+
+function getTop3F1ScoreIdentifiers(data) {
+    // Create a shallow copy and sort descending by f1 score
+    const sortedData = data.slice().sort((a, b) => b.f1 - a.f1);
+    // Select the top 3 objects
+    const top3 = sortedData.slice(0, 3);
+    // Map each object to the formatted string "org-model"
+    return top3.map(item => `${item.org}-${item.model}`);
+}
 
 export default function HomepageFeatures() {
     const initRandomData = dataList[Math.floor(Math.random() * dataList.length)];
@@ -102,27 +138,84 @@ export default function HomepageFeatures() {
         setRandomData(dataList[Math.floor(Math.random() * dataList.length)])
     };
 
+    const radarChartData = getRadarChartData(resultList);
+
+    const topIdentifiers = getTop3F1ScoreIdentifiers(resultList);
+
+    console.log(radarChartData);
+    console.log(topIdentifiers);
+
+    const MyResponsiveRadar = ({ radarChartData }) => (
+        <ResponsiveRadar
+            data={radarChartData}
+            keys={topIdentifiers}
+            indexBy="metric"
+            valueFormat=">-.2f"
+            margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
+            borderColor={{ from: 'color' }}
+            gridLabelOffset={36}
+            dotSize={10}
+            dotColor={{ theme: 'background' }}
+            dotBorderWidth={2}
+            colors={{ scheme: 'nivo' }}
+            blendMode="multiply"
+            motionConfig="wobbly"
+            legends={[
+                {
+                    anchor: 'top-left',
+                    direction: 'column',
+                    translateX: -50,
+                    translateY: -40,
+                    itemWidth: 80,
+                    itemHeight: 20,
+                    itemTextColor: '#999',
+                    symbolSize: 12,
+                    symbolShape: 'circle',
+                    effects: [
+                        {
+                            on: 'hover',
+                            style: {
+                                itemTextColor: '#000'
+                            }
+                        }
+                    ]
+                }
+            ]}
+        />
+    );
+
     return (
-        <section className={styles.features}>
-            <div className="container">
-                <Divider orientation="left">Introduction</Divider>
-                <div style={{
-                    // background: "#EFF2F5",
-                    padding: "16px",
-                    textAlign: "center",
-                    marginLeft: "10%",
-                    marginRight: "10%"
-                }}>
-                    <Table
-                        columns={tableColumns}
-                        dataSource={resultList}
-                        // pagination={{
-                        //     position: ["bottomCenter"],
-                        // }}
-                        pagination={false}
-                        size={"middle"}
-                    />
-                </div>
+        // <section className={styles.features}>
+            <div style={{ margin: "16px"}}>
+                <Row>
+                    <Col span={14}>
+                        <Divider orientation="left">Leaderboard</Divider>
+                        <div style={{
+                            // background: "#EFF2F5",
+                            padding: "16px",
+                            textAlign: "center",
+                            marginLeft: "5%",
+                            marginRight: "5%"
+                        }}>
+                            <Table
+                                columns={tableColumns}
+                                dataSource={resultList}
+                                // pagination={{
+                                //     position: ["bottomCenter"],
+                                // }}
+                                pagination={false}
+                                size={"middle"}
+                            />
+                        </div>
+                    </Col>
+                    <Col span={2}></Col>
+                    <Col span={8}>
+                        <Divider orientation="left">Top 3 F1 Score Models</Divider>
+                        <div style={{height: "300px"}}>
+                            <MyResponsiveRadar radarChartData={radarChartData} />
+                        </div>
+                    </Col>
+                </Row>
                 <Row>
                     <Col span={11}>
                         <Divider orientation="left">Introduction</Divider>
@@ -148,7 +241,7 @@ export default function HomepageFeatures() {
                         </p>
                     </Col>
                 </Row>
-                </div>
-        </section>
+            </div>
+        // </section>
 );
 }
