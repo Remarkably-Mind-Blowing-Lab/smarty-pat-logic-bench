@@ -173,7 +173,7 @@ export default function HomepageFeatures() {
     const FallacyLabelList = ({fallacy_label_list}) => (
         <>
             {fallacy_label_list.map((label) => {
-                return <Tag color={stringToColor(label)}>{label}</Tag>;
+                return <Tag bordered={false} color={stringToColor(label)}>{label}</Tag>;
             })}
         </>
     );
