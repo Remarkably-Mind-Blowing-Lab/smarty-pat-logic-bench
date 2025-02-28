@@ -13,13 +13,20 @@ const {Meta} = Card;
 import resultList from '@site/static/data/result500.json';
 
 // import dataList from '@site/static/data/sample_dataset.json';
-import dataList from '@site/static/data/data500.json';
+// import dataList from '@site/static/data/data500.json';
+
+import labelList from '@site/static/data/label500.json'
 
 const uniqueModels = [...new Set(resultList.map(record => record.model))];
 const modelFilters = uniqueModels.map((model) => ({text: model, value: model}));
 
 const uniqueOrgs = [...new Set(resultList.map(record => record.org))];
 const orgFilters = uniqueOrgs.map((org) => ({text: org, value: org}));
+
+const COLORS = ['red', 'volcano', 'orange', 'gold', 'yellow', 'lime',
+    'green', 'cyan', 'blue', 'geekblue', 'purple', 'magenta']
+const hashString = (string) => string.split('').map((char) => char.charCodeAt(0)).reduce((a, b) => a + b, 0)
+const stringToColor = (string) => COLORS[hashString(string) % COLORS.length];
 
 const defaultTitle = () => 'Leaderboard';
 
@@ -75,7 +82,7 @@ function getTopF1ScoreIdentifiers(data) {
 }
 
 export default function HomepageFeatures() {
-    const initRandomData = dataList[Math.floor(Math.random() * dataList.length)];
+    const initRandomData = labelList[Math.floor(Math.random() * labelList.length)];
     const [bordered, setBordered] = useState(false);
     const [loading, setLoading] = useState(false);
     const [size, setSize] = useState('middle');
@@ -153,7 +160,7 @@ export default function HomepageFeatures() {
     }));
 
     const changeRandomData = () => {
-        setRandomData(dataList[Math.floor(Math.random() * dataList.length)])
+        setRandomData(labelList[Math.floor(Math.random() * labelList.length)])
     };
 
     const radarChartData = getRadarChartData(resultList);
@@ -162,6 +169,14 @@ export default function HomepageFeatures() {
 
     console.log(radarChartData);
     console.log(topIdentifiers);
+
+    const FallacyLabelList = ({fallacy_label_list}) => (
+        <>
+            {fallacy_label_list.map((label) => {
+                return <Tag color={stringToColor(label)}>{label}</Tag>;
+            })}
+        </>
+    );
 
     const MyResponsiveRadar = ({ radarChartData }) => (
         <ResponsiveRadar
@@ -228,7 +243,7 @@ export default function HomepageFeatures() {
                     </Col>
                     <Col span={1}></Col>
                     <Col span={8}>
-                        <Divider orientation="left">Top {radarTopN} F1 Score Models (metrics values normalized to 0.2-1)</Divider>
+                        <Divider orientation="left">Top {radarTopN} F1 Score Models (values normalized to 0.2-1)</Divider>
                         <div style={{height: "300px"}}>
                             <MyResponsiveRadar radarChartData={radarChartData} />
                         </div>
@@ -238,8 +253,8 @@ export default function HomepageFeatures() {
                     <Col span={11}>
                         <Divider orientation="left">Introduction</Divider>
                         <p>
-                            Despite the growing focus on evaluating LLM reasoning, no existing benchmark specifically targets 
-                            <strong>logic traps</strong>—often humorous yet deceptive statements common in English-speaking contexts. 
+                            Despite the growing focus on evaluating LLM reasoning, no existing benchmark specifically targets
+                            &nbsp;<strong>logic traps</strong>—often humorous yet deceptive statements common in English-speaking contexts.
                             Moreover, no systematic survey has been conducted to assess how well LLMs navigate such reasoning challenges.
                         </p>
                         <p>
@@ -274,17 +289,21 @@ export default function HomepageFeatures() {
                 </Row>
                 <Divider orientation="left">Peek into Our Dataset</Divider>
                 <Row>
-                    <Col span={6} style={{ textAlign: "center"}}>
+                    <Col span={24} style={{ textAlign: "center"}}>
                         <Button type="primary" size="large" onClick={changeRandomData}>
-                            Click me to get some shitty advice!
+                            Click me!
                         </Button>
                     </Col>
-                    <Col span={2}></Col>
-                    <Col span={16} style={{ background: "#EFF2F5", padding: "16px"}}>
-                        <p>
-                            {randomData}
-                        </p>
+                </Row>
+                <Row style={{marginTop: "16px", background: "#EFF2F5", padding: "16px"}}>
+                    <Col span={6}></Col>
+                    <Col span={12}>
+                        <Card title="" variant="borderless">
+                            <p>{randomData.question}</p>
+                            <FallacyLabelList fallacy_label_list={randomData.fallacies}/>
+                        </Card>
                     </Col>
+                    <Col span={6}></Col>
                 </Row>
             </div>
         // </section>
