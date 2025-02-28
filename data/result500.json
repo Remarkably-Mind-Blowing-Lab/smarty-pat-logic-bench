@@ -1,53 +1,52 @@
 [
-  
-    {
-      "org": "Anthropic",
-      "model": "claude_3_7",
-      "false_positive": 0.221875,
-      "false_negative": 0.016304347826086956,
-      "fallacy_label_score": 227.455,
-      "reasoning_score": 0,
-      "f1": 0.867,
-      "date": "2025-02-27"
-    },
-    {
-      "org": "Meta",
-      "model": "llama_3_1_405b",
-      "false_positive": 0.2677514792899408,
-      "false_negative": 0.02710843373493976,
-      "fallacy_label_score": 53.293,
-      "reasoning_score": 0,
-      "f1": 0.832,
-      "date": "2025-02-27"
-    },
-    {
-      "org": "OpenAI",
-      "model": "gpt_4o",
-      "false_positive": 0.250381679389313,
-      "false_negative": 0.036827195467422094,
-      "fallacy_label_score": 30.903,
-      "reasoning_score": 0,
-      "f1": 0.839,
-      "date": "2025-02-27"
-    },
-    {
-      "org": "OpenAI",
-      "model": "o3_mini",
-      "false_positive": 0.19471947194719472,
-      "false_negative": 0.03980099502487562,
-      "fallacy_label_score": 7.685,
-      "reasoning_score": 0,
-      "f1": 0.873,
-      "date": "2025-02-27"
-    },
-    {
-      "org": "Anthropic",
-      "model": "claude_3_5",
-      "false_positive": 0.26766917293233083,
-      "false_negative": 0.04956268221574344,
-      "fallacy_label_score": 0,
-      "reasoning_score": 0,
-      "f1": 0.822,
-      "date": "2025-02-27"
-    }
-  ]
+  {
+    "org": "OpenAI",
+    "model": "o3_mini",
+    "false_positive": 0.19439868204283361,
+    "false_negative": 0.03740648379052369,
+    "fallacy_label_score": -469.809,
+    "reasoning_score": 0,
+    "f1": 0.874,
+    "date": "2025-02-27"
+  },
+  {
+    "org": "Anthropic",
+    "model": "claude_3_7",
+    "false_positive": 0.221875,
+    "false_negative": 0.016304347826086956,
+    "fallacy_label_score": -246.719,
+    "reasoning_score": 0,
+    "f1": 0.867,
+    "date": "2025-02-27"
+  },
+  {
+    "org": "OpenAI",
+    "model": "gpt_4o",
+    "false_positive": 0.250381679389313,
+    "false_negative": 0.036827195467422094,
+    "fallacy_label_score": -448.437,
+    "reasoning_score": 0,
+    "f1": 0.839,
+    "date": "2025-02-27"
+  },
+  {
+    "org": "Meta",
+    "model": "llama_3_1_405b",
+    "false_positive": 0.2677514792899408,
+    "false_negative": 0.02710843373493976,
+    "fallacy_label_score": -426.88,
+    "reasoning_score": 0,
+    "f1": 0.832,
+    "date": "2025-02-27"
+  },
+  {
+    "org": "Anthropic",
+    "model": "claude_3_5",
+    "false_positive": 0.26766917293233083,
+    "false_negative": 0.04956268221574344,
+    "fallacy_label_score": -480.34,
+    "reasoning_score": 0,
+    "f1": 0.822,
+    "date": "2025-02-27"
+  }
+]
