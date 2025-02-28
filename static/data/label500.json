@@ -1047,7 +1047,8 @@
     {
         "question": "My blood type is A+, but I keep getting B or less in my tests. Doesn't success run in my blood?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Equivocation"
         ]
     },
     {
