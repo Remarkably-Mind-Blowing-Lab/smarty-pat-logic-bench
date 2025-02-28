@@ -2036,6 +2036,17 @@
   dependencies:
     "@types/mdx" "^2.0.0"
 
+"@nivo/arcs@0.88.0":
+  version "0.88.0"
+  resolved "https://registry.yarnpkg.com/@nivo/arcs/-/arcs-0.88.0.tgz#0004aa612fd12eee5fd415ed257812b722bf5a10"
+  integrity sha512-q7MHxT71s/KKlDDtSJS4L9+/JIa5HPZZrDr3ZFECLnvp0TC1qzyFMtVevN2CsXopSTj8poN4uFXPWxYVXOq8vg==
+  dependencies:
+    "@nivo/colors" "0.88.0"
+    "@nivo/core" "0.88.0"
+    "@react-spring/web" "9.4.5 || ^9.7.2"
+    "@types/d3-shape" "^3.1.6"
+    d3-shape "^3.2.0"
+
 "@nivo/colors@0.88.0":
   version "0.88.0"
   resolved "https://registry.yarnpkg.com/@nivo/colors/-/colors-0.88.0.tgz#2790ac0607381800270f2902e4d957e65e2cad70"
@@ -2079,6 +2090,19 @@
     "@nivo/core" "0.88.0"
     "@types/d3-scale" "^4.0.8"
     d3-scale "^4.0.2"
+
+"@nivo/pie@^0.88.0":
+  version "0.88.0"
+  resolved "https://registry.yarnpkg.com/@nivo/pie/-/pie-0.88.0.tgz#628a608d077d9cfe850ffef1b16181482479e7c7"
+  integrity sha512-BE6dFWlGne1SnaEkFHNbg0sZBiwtcIqBFwmMRJ0F11SiKOzVeJyq3KiyY1I2ySSCx5VR1V8/MNBXzXFu3vJMAQ==
+  dependencies:
+    "@nivo/arcs" "0.88.0"
+    "@nivo/colors" "0.88.0"
+    "@nivo/core" "0.88.0"
+    "@nivo/legends" "0.88.0"
+    "@nivo/tooltip" "0.88.0"
+    "@types/d3-shape" "^3.1.6"
+    d3-shape "^3.2.0"
 
 "@nivo/radar@^0.88.0":
   version "0.88.0"

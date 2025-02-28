@@ -15,7 +15,7 @@ import resultList from '@site/static/data/result500.json';
 // import dataList from '@site/static/data/sample_dataset.json';
 // import dataList from '@site/static/data/data500.json';
 
-import labelList from '@site/static/data/label500.json'
+import labelList from '@site/static/data/label500.json';
 
 const uniqueModels = [...new Set(resultList.map(record => record.model))];
 const modelFilters = uniqueModels.map((model) => ({text: model, value: model}));
