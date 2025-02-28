@@ -1,0 +1,58 @@
+[
+  {
+    "name": "False Dilemma",
+    "description": "There are only two possibilities, either positive or negative."
+  },
+  {
+    "name": "Equivocation",
+    "description": "Pun, semantic ambiguity, polysemy."
+  },
+  {
+    "name": "False Premise",
+    "description": "Faulty worldview, false premise, non-existent, irrational."
+  },
+  {
+    "name": "False Analogy",
+    "description": "If A, and B both have some feature in common, then the other features of A that B also has."
+  },
+  {
+    "name": "Wrong Direction",
+    "description": "Reversing the cause and effect"
+  },
+  {
+    "name": "Fallacy of Composition",
+    "description": "E.g., tyres are made of rubber, therefore the car is also made of rubber"
+  },
+  {
+    "name": "Begging the Question",
+    "description": "An argument is an argument."
+  },
+  {
+    "name": "False Cause",
+    "description": "Things happen sequentially: there is a correlation, but not cause and effect."
+  },
+  {
+    "name": "Improper Transposition",
+    "description": "If A then B, then B then A."
+  },
+  {
+    "name": "Improper Distribution or Addition",
+    "description": "E.g., one minute late for class, sixty people in the class, one hour wasted on everyone."
+  },
+  {
+    "name": "Contextomy",
+    "description": "Taking something out of context, only in the case of quoting a ‘person’, an advert, something published, or a famous saying, as opposed to equivocation, which must be a quotation of something."
+  },
+  {
+    "name": "Nominal Fallacy",
+    "description": "Taking a ‘Metaphor’ Literally."
+  },
+  {
+    "name": "Accident Fallacy",
+    "description": "Applying a general rule mechanically"
+  },
+  {
+    "name": "Inverse Error",
+    "description": "If A then B, then not A then not B. Denying the antecedent."
+  }
+]

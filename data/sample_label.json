@@ -1,0 +1,29 @@
+[
+  {
+    "question": "How can Switzerland claim to be a neutral country when its flag clearly shows they have a positive charge?",
+    "fallacies": [
+      "False Analogy"
+    ]
+  },
+  {
+    "question": "Why doesn't Australia tell us who won the U.S. Presidential election? It's already Wednesday there.",
+    "fallacies": [
+      "False Premise"
+    ]
+  },
+  {
+    "question": "Can I use y=mx+b to measure the slope of how downhill my life is going?",
+    "fallacies": [
+      "False Analogy",
+      "Equivocation"
+    ]
+  },
+  {
+    "question": "Pizza has crust. Earth has crust. Pizza is flat. Doesn't this prove that Earth is flat?",
+    "fallacies": [
+      "False Analogy",
+      "Equivocation",
+      "False Premise"
+    ]
+  }
+]
