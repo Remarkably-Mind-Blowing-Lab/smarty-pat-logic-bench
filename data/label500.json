@@ -1020,7 +1020,7 @@
         ]
     },
     {
-        "question": "Why do i get temporary blindness everytime i close my eyes?",
+        "question": "Why do I get temporary blindness everytime I close my eyes?",
         "fallacies": [
             "False Analogy"
         ]
@@ -1264,7 +1264,7 @@
     {
         "question": "If water expands when you freeze it, why don't we keep freezing water over and over to again to fix the water shortage supply?",
         "fallacies": [
-            "Fallacy of Inverse"
+            "Inverse Error"
         ]
     },
     {
@@ -1280,7 +1280,7 @@
         ]
     },
     {
-        "question": "If i brush my teeth for 28 minutes once a week instead of two minutes twice a week, will the effect still be the same?",
+        "question": "If I brush my teeth for 28 minutes once a week instead of two minutes twice a week, will the effect still be the same?",
         "fallacies": [
             "Improper Distribution or Addition"
         ]
@@ -1391,7 +1391,7 @@
         ]
     },
     {
-        "question": "If people cant afford electricity, why don't they just grow more power plants?",
+        "question": "If people can't afford electricity, why don't they just grow more power plants?",
         "fallacies": [
             "Equivocation"
         ]
@@ -1571,7 +1571,7 @@
         ]
     },
     {
-        "question": "I saw a gif of a guy get hit by a car but i clicked 'save' before the car hit him, is he ok?",
+        "question": "I saw a gif of a guy get hit by a car but I clicked 'save' before the car hit him, is he ok?",
         "fallacies": [
             "Equivocation",
             "False Premise"
@@ -1870,7 +1870,7 @@
     {
         "question": "If it costs so much to send a pound into space, why don't we send dollars?",
         "fallacies": [
-            "Equvication"
+            "Equivocation"
         ]
     },
     {
@@ -1882,7 +1882,7 @@
     {
         "question": "It's my birthday but I haven't given birth is something wrong?",
         "fallacies": [
-            "Equvication"
+            "Equivocation"
         ]
     },
     {
@@ -1908,7 +1908,7 @@
     {
         "question": "How do British people carry around money if it gets so heavy? Isn't 50 pounds a lot?",
         "fallacies": [
-            "Equvication"
+            "Equivocation"
         ]
     },
     {
@@ -1933,7 +1933,7 @@
     {
         "question": "I just won a game in Smash Bros against a guy with the gamertag 'cancer.' Since I just beat cancer, why is my cat still dying?",
         "fallacies": [
-            "Equvication"
+            "Equivocation"
         ]
     },
     {
@@ -1951,7 +1951,7 @@
     {
         "question": "My lunar calendar says there is a going to be a new moon this week. What happened to the old one?",
         "fallacies": [
-            "Equvication"
+            "Equivocation"
         ]
     },
     {
@@ -1976,7 +1976,7 @@
     {
         "question": "If I read something that says 'RIP headphone users,' and I'm wearing headphones, does that mean I'm a ghost?",
         "fallacies": [
-            "Equivocaton"
+            "Equivocation"
         ]
     },
     {
@@ -2156,7 +2156,7 @@
     {
         "question": "I bought one of those monitor lizards but when I tried to plug it in, it bit me. How do I connect it to my PC?",
         "fallacies": [
-            "Equvication"
+            "Equivocation"
         ]
     },
     {
@@ -2283,7 +2283,7 @@
         ]
     },
     {
-        "question": "I'm trying to kill a vampire but cant find the right type of cow that will yield wooden steaks. What gives?",
+        "question": "I'm trying to kill a vampire but can't find the right type of cow that will yield wooden steaks. What gives?",
         "fallacies": [
             "Equivocation",
             "False Premise"
@@ -3031,7 +3031,7 @@
         ]
     },
     {
-        "question": "If i peddle backwards on my exercise bike will i gain weight?",
+        "question": "If I peddle backwards on my exercise bike will I gain weight?",
         "fallacies": [
             "Inverse Error"
         ]
@@ -3100,7 +3100,7 @@
     {
         "question": "I can clearly see how the Titanic took on water and eventually sank. How is it possible the designers missed this fatal flaw?",
         "fallacies": [
-            "Fasle premise"
+            "False premise"
         ]
     },
     {
