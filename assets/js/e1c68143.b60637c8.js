@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmarty_pat_logic_bench_github_io=self.webpackChunksmarty_pat_logic_bench_github_io||[]).push([[2664],{69533:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/smarty-pat-logic-bench/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

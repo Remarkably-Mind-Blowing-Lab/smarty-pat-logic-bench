@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksmarty_pat_logic_bench_github_io=self.webpackChunksmarty_pat_logic_bench_github_io||[]).push([[5742],{7093:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
