@@ -237,12 +237,39 @@ export default function HomepageFeatures() {
                 <Row>
                     <Col span={11}>
                         <Divider orientation="left">Introduction</Divider>
-                        <p>haha</p>
+                        <p>
+                            Despite the growing focus on evaluating LLM reasoning, no existing benchmark specifically targets 
+                            <strong>logic traps</strong>—often humorous yet deceptive statements common in English-speaking contexts. 
+                            Moreover, no systematic survey has been conducted to assess how well LLMs navigate such reasoning challenges.
+                        </p>
+                        <p>
+                            To fill this gap, <strong>SS-Bench</strong> introduces a benchmark with <strong>clear logical error labels</strong>, 
+                            evaluating LLMs on two key tasks: (1) determining whether a given statement contains a logical error, and 
+                            (2) classifying the type of fallacy. We introduce <strong>structured scoring</strong> to assess fallacy 
+                            identification and overall reasoning quality, providing a detailed evaluation of LLM performance.
+                        </p>
+                        <p>
+                            Our results offer the first comparative analysis of LLMs’ ability to handle logic traps, shedding light on 
+                            their reasoning limitations and potential.
+                        </p>
                     </Col>
                     <Col span={2}></Col>
                     <Col span={11}>
                         <Divider orientation="left">Metrics</Divider>
-                        <p>hehe</p>
+                        <p>
+                        <strong>False Positive (FP)</strong> occurs when a logically correct sentence is misclassified as a logical fallacy, 
+                            while <strong>False Negative (FN)</strong> means a logical fallacy is mistakenly labeled as correct.
+                        </p>
+                        <p>
+                        <strong>F1 Score</strong> evaluates the model’s ability to distinguish logical errors, balancing precision and recall.
+                        </p>
+                        <p>
+                        <strong>Fallacy Labelling Score</strong> measures how accurately the model classifies sentences into human-annotated and 
+                            verified logical fallacy categories.
+                        </p>
+                        <p>
+                        <strong>Reasoning Score</strong> assesses how well the model's interpretation of logical errors aligns with human reasoning.
+                        </p>
                     </Col>
                 </Row>
                 <Divider orientation="left">Peek into Our Dataset</Divider>
