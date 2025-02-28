@@ -1,9 +1,19 @@
 [
   {
+    "org": "DeepSeek",
+    "model": "deepseek_v3",
+    "false_positive": 0.1189,
+    "false_negative": 0.0331,
+    "fallacy_label_score": -455.139,
+    "reasoning_score": 0,
+    "f1": 0.921,
+    "date": "2025-02-27"
+  },
+  {
     "org": "OpenAI",
     "model": "o3_mini",
-    "false_positive": 0.19439868204283361,
-    "false_negative": 0.03740648379052369,
+    "false_positive": 0.1944,
+    "false_negative": 0.0374,
     "fallacy_label_score": -469.809,
     "reasoning_score": 0,
     "f1": 0.874,
@@ -12,8 +22,8 @@
   {
     "org": "Anthropic",
     "model": "claude_3_7",
-    "false_positive": 0.221875,
-    "false_negative": 0.016304347826086956,
+    "false_positive": 0.2219,
+    "false_negative": 0.0163,
     "fallacy_label_score": -246.719,
     "reasoning_score": 0,
     "f1": 0.867,
@@ -22,8 +32,8 @@
   {
     "org": "OpenAI",
     "model": "gpt_4o",
-    "false_positive": 0.250381679389313,
-    "false_negative": 0.036827195467422094,
+    "false_positive": 0.2504,
+    "false_negative": 0.0368,
     "fallacy_label_score": -448.437,
     "reasoning_score": 0,
     "f1": 0.839,
@@ -32,8 +42,8 @@
   {
     "org": "Meta",
     "model": "llama_3_1_405b",
-    "false_positive": 0.2677514792899408,
-    "false_negative": 0.02710843373493976,
+    "false_positive": 0.2678,
+    "false_negative": 0.0271,
     "fallacy_label_score": -426.88,
     "reasoning_score": 0,
     "f1": 0.832,
@@ -42,8 +52,8 @@
   {
     "org": "Anthropic",
     "model": "claude_3_5",
-    "false_positive": 0.26766917293233083,
-    "false_negative": 0.04956268221574344,
+    "false_positive": 0.2677,
+    "false_negative": 0.0496,
     "fallacy_label_score": -480.34,
     "reasoning_score": 0,
     "f1": 0.822,
