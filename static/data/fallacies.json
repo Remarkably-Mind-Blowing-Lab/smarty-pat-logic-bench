@@ -1,58 +1,58 @@
 [
   {
     "name": "False Dilemma",
-    "description": "There are only two possibilities, either positive or negative."
+    "description": "The presentation of an issue as having only two possible outcomes, either right or wrong, without recognising that additional alternatives may exist."
   },
   {
     "name": "Equivocation",
-    "description": "Pun, semantic ambiguity, polysemy."
+    "description": "The misleading use of a word or phrase that has multiple meanings, creating ambiguity and leading to confusion in interpretation or reasoning."
   },
   {
     "name": "False Premise",
-    "description": "Faulty worldview, false premise, non-existent, irrational."
+    "description": "The establishment of an argument based on an unfounded, non-existent, or unreasonable assumption, leading to flawed reasoning or invalid conclusions."
   },
   {
     "name": "False Analogy",
-    "description": "If A, and B both have some feature in common, then the other features of A that B also has."
+    "description": "The assumption that if A and B share certain characteristics, then B must also possess other attributes of A, despite lacking a valid basis for this inference."
   },
   {
     "name": "Wrong Direction",
-    "description": "Reversing the cause and effect"
+    "description": "The incorrect attribution of causality by reversing the cause-and-effect relationship, assuming the effect is the cause and the cause is the effect."
   },
   {
     "name": "Fallacy of Composition",
-    "description": "E.g., tyres are made of rubber, therefore the car is also made of rubber"
+    "description": "The mistaken assumption that what is true for a part of something must also be true for the whole, disregarding the possible differences between individual components and the entire entity. "
   },
   {
     "name": "Begging the Question",
-    "description": "An argument is an argument."
+    "description": "The use of a statement as both the premise and the conclusion, assuming the truth of what is to be proven instead of providing independent support."
   },
   {
     "name": "False Cause",
-    "description": "Things happen sequentially: there is a correlation, but not cause and effect."
-  },
-  {
-    "name": "Improper Transposition",
-    "description": "If A then B, then B then A."
-  },
-  {
-    "name": "Improper Distribution or Addition",
-    "description": "E.g., one minute late for class, sixty people in the class, one hour wasted on everyone."
-  },
-  {
-    "name": "Contextomy",
-    "description": "Taking something out of context, only in the case of quoting a ‘person’, an advert, something published, or a famous saying, as opposed to equivocation, which must be a quotation of something."
-  },
-  {
-    "name": "Nominal Fallacy",
-    "description": "Taking a ‘Metaphor’ Literally."
-  },
-  {
-    "name": "Accident Fallacy",
-    "description": "Applying a general rule mechanically"
+    "description": "The incorrect assumption that a causal relationship exists between two events solely because one follows the other, failing to account for coincidence or other influencing factors."
   },
   {
     "name": "Inverse Error",
-    "description": "If A then B, then not A then not B. Denying the antecedent."
+    "description": "The mistaken reasoning that if A implies B, then not A must imply not B, overlooking the possibility that B may still occur due to other factors."
+  },
+  {
+    "name": "Improper Transposition",
+    "description": "The incorrect inference that if A implies B, then B must also imply A, failing to recognise that implication is not necessarily reversible."
+  },
+  {
+    "name": "Improper Distribution or Addition",
+    "description": "The erroneous reasoning that individual effects can be directly summed or distributed across a group without considering their actual impact or interaction."
+  },
+  {
+    "name": "Contextomy",
+    "description": "The act of selectively quoting or altering a statement, advertisement, or published material in a way that distorts its original meaning, often misrepresenting the intent of the original source. "
+  },
+  {
+    "name": "Nominal Fallacy",
+    "description": "The mistaken interpretation of a metaphorical or figurative expression as a literal statement, leading to a misunderstanding of its intended meaning."
+  },
+  {
+    "name": "Accident Fallacy",
+    "description": "The misapplication of a general rule to a specific case where exceptions should be considered, treating the rule as absolute without regard for context or relevant circumstances."
   }
 ]
