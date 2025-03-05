@@ -301,7 +301,8 @@
     {
         "question": "If I heat my solid state hard drive until it becomes a gaseous state hard drive, would that enable cloud computing?",
         "fallacies": [
-            "False Analogy"
+            "Nominal Fallacy",
+            "False Premise"
         ]
     },
     {
@@ -668,7 +669,8 @@
     {
         "question": "If every action has an equal and opposite reaction, why does no-one love me back?",
         "fallacies": [
-            "Equivocation"
+            "Equivocation",
+            "False Analogy"
         ]
     },
     {
@@ -1265,7 +1267,7 @@
     {
         "question": "If water expands when you freeze it, why don't we keep freezing water over and over to again to fix the water shortage supply?",
         "fallacies": [
-            "Inverse Error"
+            "False Premise"
         ]
     },
     {
@@ -2786,6 +2788,7 @@
     {
         "question": "Can I use Office 365 on February 29th?",
         "fallacies": [
+            "Nominal Fallacy",
             "Equivocation"
         ]
     },

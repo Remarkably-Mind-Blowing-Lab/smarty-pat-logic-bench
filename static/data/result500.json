@@ -4,7 +4,7 @@
     "model": "deepseek_v3",
     "false_positive": 0.1187,
     "false_negative": 0.03097,
-    "fallacy_label_score": -445.457,
+    "fallacy_label_score": -441.457,
     "reasoning_score": 0,
     "f1": 0.922,
     "date": "2025-02-27"
@@ -14,7 +14,7 @@
     "model": "grok_2",
     "false_positive": 0.1406,
     "false_negative": 0.03417,
-    "fallacy_label_score": -308.188,
+    "fallacy_label_score": -304.188,
     "reasoning_score": 0,
     "f1": 0.908,
     "date": "2025-02-27"
@@ -22,9 +22,9 @@
   {
     "org": "OpenAI",
     "model": "o3_mini",
-    "false_positive": 0.1960,
+    "false_positive": 0.196,
     "false_negative": 0.04926,
-    "fallacy_label_score": -479.531,
+    "fallacy_label_score": -476.865,
     "reasoning_score": 0,
     "f1": 0.868,
     "date": "2025-02-27"
@@ -34,7 +34,7 @@
     "model": "claude_3_7",
     "false_positive": 0.2219,
     "false_negative": 0.0163,
-    "fallacy_label_score": -203.378,
+    "fallacy_label_score": -199.712,
     "reasoning_score": 0,
     "f1": 0.867,
     "date": "2025-02-27"
@@ -44,7 +44,7 @@
     "model": "deepseek_r1",
     "false_positive": 0.25,
     "false_negative": 0.00882,
-    "fallacy_label_score": -340.071,
+    "fallacy_label_score": -335.071,
     "reasoning_score": 0,
     "f1": 0.853,
     "date": "2025-02-27"
@@ -54,7 +54,7 @@
     "model": "gpt_4o",
     "false_positive": 0.2496,
     "false_negative": 0.03134,
-    "fallacy_label_score": -461.913,
+    "fallacy_label_score": -461.247,
     "reasoning_score": 0,
     "f1": 0.842,
     "date": "2025-02-27"
@@ -64,7 +64,7 @@
     "model": "llama_3_1_405b",
     "false_positive": 0.2689,
     "false_negative": 0.03582,
-    "fallacy_label_score": -440.09,
+    "fallacy_label_score": -437.09,
     "reasoning_score": 0,
     "f1": 0.828,
     "date": "2025-02-27"
@@ -74,7 +74,7 @@
     "model": "claude_3_5",
     "false_positive": 0.2681,
     "false_negative": 0.05233,
-    "fallacy_label_score": -454.523,
+    "fallacy_label_score": -451.523,
     "reasoning_score": 0,
     "f1": 0.82,
     "date": "2025-02-27"
