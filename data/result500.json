@@ -1,82 +1,172 @@
 [
   {
-    "org": "DeepSeek",
-    "model": "deepseek_v3",
-    "false_positive": 0.1187,
-    "false_negative": 0.03097,
-    "fallacy_label_score": -441.457,
+    "org": "Anthropic",
+    "model": "claude 3.7 sonnet thinking",
+    "false_positive": 0.22588424437299034,
+    "false_negative": 0.022408963585434174,
+    "fallacy_label_score": -473.912,
     "reasoning_score": 0,
-    "f1": 0.922,
-    "date": "2025-02-27"
-  },
-  {
-    "org": "xAI",
-    "model": "grok_2",
-    "false_positive": 0.1406,
-    "false_negative": 0.03417,
-    "fallacy_label_score": -304.188,
-    "reasoning_score": 0,
-    "f1": 0.908,
-    "date": "2025-02-27"
-  },
-  {
-    "org": "OpenAI",
-    "model": "o3_mini",
-    "false_positive": 0.196,
-    "false_negative": 0.04926,
-    "fallacy_label_score": -476.865,
-    "reasoning_score": 0,
-    "f1": 0.868,
-    "date": "2025-02-27"
+    "f1": 0.862,
+    "date": "2025-05-13"
   },
   {
     "org": "Anthropic",
-    "model": "claude_3_7",
-    "false_positive": 0.2219,
-    "false_negative": 0.0163,
-    "fallacy_label_score": -199.712,
+    "model": "claude 3.7 sonnet",
+    "false_positive": 0.18104184457728437,
+    "false_negative": 0.025412960609911054,
+    "fallacy_label_score": -526.909,
     "reasoning_score": 0,
-    "f1": 0.867,
-    "date": "2025-02-27"
-  },
-  {
-    "org": "DeepSeek",
-    "model": "deepseek_r1",
-    "false_positive": 0.25,
-    "false_negative": 0.00882,
-    "fallacy_label_score": -335.071,
-    "reasoning_score": 0,
-    "f1": 0.853,
-    "date": "2025-02-27"
-  },
-  {
-    "org": "OpenAI",
-    "model": "gpt_4o",
-    "false_positive": 0.2496,
-    "false_negative": 0.03134,
-    "fallacy_label_score": -461.247,
-    "reasoning_score": 0,
-    "f1": 0.842,
-    "date": "2025-02-27"
+    "f1": 0.888,
+    "date": "2025-05-13"
   },
   {
     "org": "Meta",
-    "model": "llama_3_1_405b",
-    "false_positive": 0.2689,
-    "false_negative": 0.03582,
-    "fallacy_label_score": -437.09,
+    "model": "llama3.1 405b",
+    "false_positive": 0.125,
+    "false_negative": 0.053691275167785234,
+    "fallacy_label_score": -506.93,
     "reasoning_score": 0,
-    "f1": 0.828,
-    "date": "2025-02-27"
+    "f1": 0.907,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "Google",
+    "model": "gemini 2.5 pro thinking",
+    "false_positive": 0.4114803625377644,
+    "false_negative": 0.0165016501650165,
+    "fallacy_label_score": -332.441,
+    "reasoning_score": 0,
+    "f1": 0.733,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "Alibaba",
+    "model": "qwen 3 thinking",
+    "false_positive": 0.16376306620209058,
+    "false_negative": 0.02345679012345679,
+    "fallacy_label_score": -793.875,
+    "reasoning_score": 0,
+    "f1": 0.899,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "Google",
+    "model": "gemini 2.5 pro",
+    "false_positive": 0.40500916310323765,
+    "false_negative": 0.01557632398753894,
+    "fallacy_label_score": -334.864,
+    "reasoning_score": 0,
+    "f1": 0.739,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "Alibaba",
+    "model": "qwen 3",
+    "false_positive": 0.17026793431287812,
+    "false_negative": 0.02372034956304619,
+    "fallacy_label_score": -811.122,
+    "reasoning_score": 0,
+    "f1": 0.895,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "xAI",
+    "model": "grok 3",
+    "false_positive": 0.2572964669738863,
+    "false_negative": 0.018292682926829267,
+    "fallacy_label_score": -1574.708,
+    "reasoning_score": 0,
+    "f1": 0.844,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "DeepSeek",
+    "model": "deepseek v3",
+    "false_positive": 0.09817131857555342,
+    "false_negative": 0.04570184983677911,
+    "fallacy_label_score": -850.253,
+    "reasoning_score": 0,
+    "f1": 0.926,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "DeepSeek",
+    "model": "deepseek r1",
+    "false_positive": 0.2654600301659125,
+    "false_negative": 0.007911392405063292,
+    "fallacy_label_score": -521.672,
+    "reasoning_score": 0,
+    "f1": 0.843,
+    "date": "2025-05-13"
   },
   {
     "org": "Anthropic",
-    "model": "claude_3_5",
-    "false_positive": 0.2681,
-    "false_negative": 0.05233,
-    "fallacy_label_score": -451.523,
+    "model": "claude 3.5 sonnet",
+    "false_positive": 0.2980561555075594,
+    "false_negative": 0.007029876977152899,
+    "fallacy_label_score": -680.41,
     "reasoning_score": 0,
-    "f1": 0.82,
-    "date": "2025-02-27"
+    "f1": 0.821,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "xAI",
+    "model": "grok 3 mini",
+    "false_positive": 0.1729776247848537,
+    "false_negative": 0.022613065326633167,
+    "fallacy_label_score": -1298.597,
+    "reasoning_score": 0,
+    "f1": 0.894,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "xAI",
+    "model": "grok 3 mini thinking",
+    "false_positive": 0.1679721496953873,
+    "false_negative": 0.02843016069221261,
+    "fallacy_label_score": -1323.705,
+    "reasoning_score": 0,
+    "f1": 0.894,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "Grok",
+    "model": "grok 2",
+    "false_positive": 0.16564952048823017,
+    "false_negative": 0.027127003699136867,
+    "fallacy_label_score": -622.719,
+    "reasoning_score": 0,
+    "f1": 0.896,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "OpenAI",
+    "model": "o4 mini",
+    "false_positive": 0.15096065873741996,
+    "false_negative": 0.058959537572254334,
+    "fallacy_label_score": -341.532,
+    "reasoning_score": 0,
+    "f1": 0.89,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "OpenAI",
+    "model": "gpt 4o",
+    "false_positive": 0.24632068164213788,
+    "false_negative": 0.008995502248875561,
+    "fallacy_label_score": -810.217,
+    "reasoning_score": 0,
+    "f1": 0.855,
+    "date": "2025-05-13"
+  },
+  {
+    "org": "OpenAI",
+    "model": "o3 mini",
+    "false_positive": 0.15075825156110614,
+    "false_negative": 0.03225806451612903,
+    "fallacy_label_score": -355.898,
+    "reasoning_score": 0,
+    "f1": 0.903,
+    "date": "2025-05-13"
   }
 ]

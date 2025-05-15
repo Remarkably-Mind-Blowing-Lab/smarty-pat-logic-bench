@@ -54,5 +54,9 @@
   {
     "name": "Accident Fallacy",
     "description": "The misapplication of a general rule to a specific case where exceptions should be considered, treating the rule as absolute without regard for context or relevant circumstances."
+  },
+  {
+    "name": "Self Contradiction",
+    "description": " Te statement that directly negates its own truth rather than circularly assuming its conclusion as a premise."
   }
 ]
