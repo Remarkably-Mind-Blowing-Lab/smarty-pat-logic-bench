@@ -6,8 +6,23 @@ import fallacyList from '@site/static/data/fallacies.json';
 import labelList from '@site/static/data/label500.json';
 import {ResponsivePie} from "@nivo/pie";
 
-const COLORS = ['red', 'volcano', 'orange', 'gold', 'yellow', 'lime',
-    'green', 'cyan', 'blue', 'geekblue', 'purple', 'magenta']
+const COLORS = [
+    '#6BB9F0', // Soft sky blue
+    '#F5AB35', // Warm amber
+    '#FF6F69', // Coral red
+    '#88D8B0', // Mint green
+    '#F3D250', // Sunny yellow
+    '#A593E0', // Soft violet
+    '#79BD9A', // Sage green
+    '#F67280', // Rose pink
+    '#4D9DE0', // Ocean blue
+    '#C06C84', // Dusty mauve
+    '#F8B195', // Peach
+    '#C9CBA3', // Soft khaki
+    '#8D8741', // Olive brown
+    '#FFB447', // Mango orange
+    '#4ECDC4'  // Turquoise
+]
 const hashString = (string) => string.split('').map((char) => char.charCodeAt(0)).reduce((a, b) => a + b, 0)
 const stringToColor = (string) => COLORS[hashString(string) % COLORS.length];
 
@@ -32,7 +47,8 @@ function getPieChartData(data) {
     const result = Object.keys(counts).map(key => ({
         id: key,
         label: key,
-        value: counts[key]
+        value: counts[key],
+        color: stringToColor(key)
     })).sort((a, b) => b.value - a.value);
 
     return result;
@@ -46,6 +62,8 @@ const Dataset = () => {
     const MyResponsivePie = ({ pieData }) => (
         <ResponsivePie
             data={pieData}
+            colors={d => d.data.color}
+            colorBy="id"
             wideth={300}
             height={300}
             margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
@@ -68,15 +86,20 @@ const Dataset = () => {
             arcLinkLabelsThickness={2}
             arcLinkLabelsColor={{ from: 'color' }}
             arcLabelsSkipAngle={10}
+            // arcLabelsTextColor={{
+            //     from: 'color',
+            //     modifiers: [
+            //         [
+            //             'darker',
+            //             2
+            //         ]
+            //     ]
+            // }}
             arcLabelsTextColor={{
                 from: 'color',
-                modifiers: [
-                    [
-                        'darker',
-                        2
-                    ]
-                ]
+                modifiers: [['darker', 2]]
             }}
+            colors={datum => stringToColor(datum.id)}
         />
     );
 

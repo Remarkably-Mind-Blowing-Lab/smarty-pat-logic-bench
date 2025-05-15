@@ -25,7 +25,7 @@
         ]
     },
     {
-        "question": "I bought a 'Smart' TV, but I'm still able to watch Duck Dynasty. Why isn't it working?",
+        "question": "I bought a \"Smart\" TV, but I'm still able to watch Duck Dynasty. Why isn't it working?",
         "fallacies": [
             "Equivocation"
         ]
@@ -84,7 +84,8 @@
     {
         "question": "My parenting book recommends having one child of each gender. Does this mean I have to have 60 children?",
         "fallacies": [
-            "Accident fallacy"
+            "Accident fallacy",
+            "Contextomy"
         ]
     },
     {
@@ -108,7 +109,8 @@
     {
         "question": "If it takes 66 days to form a habit can I smoke cigarettes for 65 days, take a day off, then resume smoking for another 65 days to avoid becoming addicted?",
         "fallacies": [
-            "False Premise"
+            "Accident Fallacy",
+            "Contextomy"
         ]
     },
     {
@@ -207,7 +209,7 @@
         ]
     },
     {
-        "question": "My ice has only one ingredient: 'water'. How is it legal for companies to make ice without even using ice? Did they use GMOs?",
+        "question": "My ice has only one ingredient: \"water\". How is it legal for companies to make ice without even using ice? Did they use GMOs?",
         "fallacies": [
             "False Premise"
         ]
@@ -280,7 +282,7 @@
         ]
     },
     {
-        "question": "I've already squirted two whole bottles of 'no tears' baby shampoo into my daughter's face. Why is she still crying?",
+        "question": "I've already squirted two whole bottles of \"no tears\" baby shampoo into my daughter's face. Why is she still crying?",
         "fallacies": [
             "Contextomy"
         ]
@@ -417,7 +419,7 @@
     {
         "question": "If the earth is flat why is there members of the Flat Earth Society all around the globe.",
         "fallacies": [
-            "Begging the question"
+            "Self Contradiction"
         ]
     },
     {
@@ -453,7 +455,8 @@
     {
         "question": "I was told to set my clock back an hour when it showed 2AM on November 1st. I've done this 8 times now. When can I stop setting the clock back?",
         "fallacies": [
-            "Accident fallacy"
+            "Accident fallacy",
+            "Contextomy"
         ]
     },
     {
@@ -580,7 +583,7 @@
         ]
     },
     {
-        "question": "The shampoo bottle says 'lather, rinse, repeat'. When does it stop? It's been three days. Help!",
+        "question": "The shampoo bottle says \"lather, rinse, repeat\". When does it stop? It's been three days. Help!",
         "fallacies": [
             "Accident fallacy",
             "False Premise"
@@ -589,7 +592,6 @@
     {
         "question": "If I only have 1 choice, doesn't that mean I have no choice? Therefore 0 = 1?",
         "fallacies": [
-            "Nominal Fallacy",
             "False Premise"
         ]
     },
@@ -606,7 +608,7 @@
         ]
     },
     {
-        "question": "This Listerine I just bought say it kills '97% of germs' but the bleach under the sink says it kills '99.9% of germs.' Should I just gargle with bleach instead?",
+        "question": "This Listerine I just bought say it kills \"97% of germs\" but the bleach under the sink says it kills \"99.9% of germs.\" Should I just gargle with bleach instead?",
         "fallacies": [
             "False Premise"
         ]
@@ -626,13 +628,13 @@
     {
         "question": "If 200,000 people die every year from drowning and 200,000 people have already drowned this year, does that mean I can breathe under water?",
         "fallacies": [
-            "Contextomy"
+            "False Premise"
         ]
     },
     {
         "question": "How many calories do I burn by running away from my problems?",
         "fallacies": [
-            "Nominal Fallacy"
+            "False Premise"
         ]
     },
     {
@@ -668,7 +670,8 @@
     {
         "question": "If every action has an equal and opposite reaction, why does no-one love me back?",
         "fallacies": [
-            "Equivocation"
+            "Equivocation",
+            "Contextomy"
         ]
     },
     {
@@ -752,7 +755,7 @@
         ]
     },
     {
-        "question": "If the world population is 7.6 billion, how is McDonald's able to serve over 99 billion?",
+        "question": "If the world population is 7.6 billion, how is McDonald’s able to serve over 99 billion?",
         "fallacies": [
             "Contextomy"
         ]
@@ -760,7 +763,8 @@
     {
         "question": "If blood is thicker than water, and maple syrup is thicker than blood. Does this mean pancakes are more important than family?",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -797,7 +801,7 @@
     {
         "question": "If water contains 0 calories, then why do I weigh more after drinking it?",
         "fallacies": [
-            "False Cause"
+            "False Premise"
         ]
     },
     {
@@ -839,7 +843,8 @@
     {
         "question": "If a watched pot never boils, can't we use that principal and all go to the ice caps to stare at them?",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -851,7 +856,7 @@
     {
         "question": "If it takes a woman nine months to make a baby, can nine women make a baby in one month?",
         "fallacies": [
-            "False Premise"
+            "Improper Distribution or Addition"
         ]
     },
     {
@@ -861,7 +866,7 @@
         ]
     },
     {
-        "question": "Why is it that dogs go 'wolf' but wolves go 'owwwwwwwl' and owls go 'who?'",
+        "question": "Why is it that dogs go \"wolf\" but wolves go \"owwwwwwwl\" and owls go \"who?\"",
         "fallacies": [
             "False Analogy"
         ]
@@ -869,7 +874,7 @@
     {
         "question": "If 700,000 people die in hospitals every year. Why don't we close down these hospitals and prevent those deaths?",
         "fallacies": [
-            "False Premise"
+            "False Cause"
         ]
     },
     {
@@ -911,13 +916,15 @@
     {
         "question": "If I apply enough pressure, can I turn my carbon footprint into a diamond footprint?",
         "fallacies": [
-            "False Analogy"
+            "False Analogy",
+            "Equivocation"
         ]
     },
     {
         "question": "I popped a can of Pringles and now the fun won't stop. How can I make the fun stop? Please help, it's been 8 days already.",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -991,17 +998,18 @@
     {
         "question": "My high school teacher told me that every time I have a cigarette, it takes a minute off of my life, but it takes me 5 minutes to smoke a cigarette. Does this mean I achieve a net gain of 4 minutes on my life?",
         "fallacies": [
-            "False Premise"
+            "Nominal Fallacy",
+            "Contextomy"
         ]
     },
     {
-        "question": "Why hasn't a 'minute' been standardized yet? 10 minutes on a microwave is an eternity, but 10 minutes snoozing my alarm is an instant.",
+        "question": "Why hasn't a \"minute\" been standardized yet? 10 minutes on a microwave is an eternity, but 10 minutes snoozing my alarm is an instant.",
         "fallacies": [
             "False Premise"
         ]
     },
     {
-        "question": "In the 1990s, I could easily lift a TV with a 27' inch screen. Now I can easily lift a TV with a 65' screen. How much stronger am I going to get?",
+        "question": "In the 1990s, I could easily lift a TV with a 27\" inch screen. Now I can easily lift a TV with a 65\" screen. How much stronger am I going to get?",
         "fallacies": [
             "False Premise"
         ]
@@ -1015,7 +1023,6 @@
     {
         "question": "Chromium has atomic number 24. What are the atomic numbers of Firefoxium, Safarium, and Internet Explorium?",
         "fallacies": [
-            "False Analogy",
             "False Analogy"
         ]
     },
@@ -1034,8 +1041,7 @@
     {
         "question": "My IQ is 80 and my friend's IQ is 83. If I team up with my friend, will we be smarter than Einstein(IQ=162)?",
         "fallacies": [
-            "False Premise",
-            "False Analogy"
+            "Improper Distribution or Addition"
         ]
     },
     {
@@ -1058,9 +1064,10 @@
         ]
     },
     {
-        "question": "People often say 'you wouldn't download a car'. I certainly would like to, but I just don't know how. Where are some good pirate sites where I could download a car? Also, what kind of 3D printer should I buy to print the car?",
+        "question": "People often say \"you wouldn't download a car\". I certainly would like to, but I just don't know how. Where are some good pirate sites where I could download a car? Also, what kind of 3D printer should I buy to print the car?",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -1070,7 +1077,7 @@
         ]
     },
     {
-        "question": "Will my phone crash if I turn on 'Airplane mode'?",
+        "question": "Will my phone crash if I turn on \"Airplane mode\"?",
         "fallacies": [
             "Nominal Fallacy"
         ]
@@ -1121,13 +1128,14 @@
     {
         "question": "If the multiverse theory is true, does that mean there is a universe in which it isn't?",
         "fallacies": [
-            "Begging the question"
+            "Self Contradiction"
         ]
     },
     {
         "question": "If you put Adderall in orange juice, does it increase its concentrate?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Equivocation"
         ]
     },
     {
@@ -1140,8 +1148,7 @@
     {
         "question": "If I change my New Years resolution to HD, will the meaning of life become more clear?",
         "fallacies": [
-            "Equivocation",
-            "False Analogy"
+            "Equivocation"
         ]
     },
     {
@@ -1153,11 +1160,11 @@
     {
         "question": "If 8 bits is a bite, then how much ram do I need to finish this cake?",
         "fallacies": [
-            "False Analogy"
+            "Equivocation"
         ]
     },
     {
-        "question": "I know a couple that says 'We're pregnant' and yet the dad still drinks while pregnant. Is he putting the baby at risk?",
+        "question": "I know a couple that says \"We're pregnant\" and yet the dad still drinks while pregnant. Is he putting the baby at risk?",
         "fallacies": [
             "False Premise",
             "Contextomy"
@@ -1173,7 +1180,7 @@
     {
         "question": "If diamonds last forever, then why is my wedding ring gone and why am I getting a divorce?",
         "fallacies": [
-            "False Analogy"
+            "False Premise"
         ]
     },
     {
@@ -1192,7 +1199,8 @@
     {
         "question": "How many milligrams are in a telegram?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Equivocation"
         ]
     },
     {
@@ -1204,7 +1212,7 @@
     {
         "question": "If carbon turns into diamond when under high pressure, why doesn't my pencil turn into diamond when I'm doing a test?",
         "fallacies": [
-            "False Analogy"
+            "Equivocation"
         ]
     },
     {
@@ -1259,13 +1267,14 @@
         "question": "If a watched pot never boils, will an unobservable pot boil infinitely quickly?",
         "fallacies": [
             "Contextomy",
-            "Inverse Error"
+            "Inverse Error",
+            "Nominal Fallacy"
         ]
     },
     {
         "question": "If water expands when you freeze it, why don't we keep freezing water over and over to again to fix the water shortage supply?",
         "fallacies": [
-            "Inverse Error"
+            "False Premise"
         ]
     },
     {
@@ -1305,7 +1314,7 @@
         ]
     },
     {
-        "question": "If 1/2 hands are left hands, and I am born with 2 hands, there should be a 1/4 chance I get two left hands. How come double handedness isn't more common?",
+        "question": "If 1/2 hands are left hands, and I am born with 2 hands, there should be a 1/4 chance I get two left hands. How come double handedness isn’t more common?",
         "fallacies": [
             "False Premise",
             "Improper Distribution or Addition"
@@ -1350,7 +1359,8 @@
     {
         "question": "If we just exploded the mother of all bombs, does that mean bombs will now go extinct?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -1418,7 +1428,7 @@
         ]
     },
     {
-        "question": "My programming teacher told me to use a loop to print 'Hello world' 10,000 times. My printer is running out of paper. Please send help.",
+        "question": "My programming teacher told me to use a loop to print \"Hello world\" 10,000 times. My printer is running out of paper. Please send help.",
         "fallacies": [
             "Equivocation"
         ]
@@ -1439,14 +1449,16 @@
         "question": "If a picture is worth one thousand words, how many is a picture of one word?",
         "fallacies": [
             "Contextomy",
-            "Improper transposition"
+            "Improper transposition",
+            "Nominal Fallacy"
         ]
     },
     {
         "question": "If there is steel wool, why have I never seen a steel sheep in the wild?",
         "fallacies": [
             "Equivocation",
-            "False Analogy"
+            "False Analogy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -1579,16 +1591,10 @@
         ]
     },
     {
-        "question": "If I donate a kidney how long until an adultney grows in?",
-        "fallacies": [
-            "Equivocation",
-            "False Analogy"
-        ]
-    },
-    {
         "question": "At what age do worms become snakes?",
         "fallacies": [
-            "False Analogy"
+            "False Analogy",
+            "False Premise"
         ]
     },
     {
@@ -1659,13 +1665,14 @@
         "question": "What are idiots going to grasp at, now that straws are banned?",
         "fallacies": [
             "Contextomy",
-            "False Premise"
+            "False Premise",
+            "Nominal Fallacy"
         ]
     },
     {
         "question": "How long can you live before dying?",
         "fallacies": [
-            "False Premise"
+            "Begging the question"
         ]
     },
     {
@@ -1681,7 +1688,7 @@
         ]
     },
     {
-        "question": "If a nuclear bomb explodes with the power of 100 suns, how much closer to the epicentre can I get if I'm covered in SPF50 sun cream?",
+        "question": "If a nuclear bomb explodes with the power of 100 suns, how much closer to the epicentre can I get if I’m covered in SPF50 sun cream?",
         "fallacies": [
             "False Premise"
         ]
@@ -1715,7 +1722,8 @@
     {
         "question": "Do magnets grow in magnetic fields?",
         "fallacies": [
-            "False Analogy"
+            "False Analogy",
+            "Equivocation"
         ]
     },
     {
@@ -1727,7 +1735,8 @@
     {
         "question": "How come 1 apple + 1 apple = 2 apples but 1 pile of snow + 1 pile of snow = 1 big pile of snow?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "False Analogy"
         ]
     },
     {
@@ -1739,7 +1748,8 @@
     {
         "question": "If alcohol is a depressant, but I'm happier when I'm drunk, does that mean that sober me is TOO happy?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Equivocation"
         ]
     },
     {
@@ -1775,7 +1785,7 @@
         ]
     },
     {
-        "question": "Every periodic table I've seen has sodium's chemical symbol listed as 'NA.' Why would a symbol be not applicable for this element?",
+        "question": "Every periodic table I've seen has sodium's chemical symbol listed as \"NA.\" Why would a symbol be not applicable for this element?",
         "fallacies": [
             "Equivocation"
         ]
@@ -1797,7 +1807,8 @@
     {
         "question": "Since the nearest star is 4.37 light years away from Earth, do wishes take nine years to come true?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Contextomy"
         ]
     },
     {
@@ -1807,7 +1818,7 @@
         ]
     },
     {
-        "question": "Are there any letters past 'Z' or before 'A' that we haven't discovered yet?",
+        "question": "Are there any letters past \"Z\" or before \"A\" that we haven't discovered yet?",
         "fallacies": [
             "False Premise"
         ]
@@ -1844,7 +1855,7 @@
         ]
     },
     {
-        "question": "How do people speak Mandarin if it's a fruit?",
+        "question": "How do people speak Mandarin if it’s a fruit?",
         "fallacies": [
             "Equivocation"
         ]
@@ -1852,7 +1863,3009 @@
     {
         "question": "If I put my hand over the end of my flashlight and allow only a little bit of light to escape between my fingers while I hold most of the light back inside the flashlight, how much longer will my batteries last?",
         "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If evolution is a random process, why does charmander always evolve into charmeleon?",
+        "fallacies": [
             "False Premise"
+        ]
+    },
+    {
+        "question": "Top gear keeps showing cars that are over 100,000 pounds. Why are European cars so heavy?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If I keep switching from Geiko to Geiko, does my insurance keep dropping 15%?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "How many times zones are between the US and China? It seems like their New Year is always like two months after ours.",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I found this in my community. From what I've heard from other people, it's a weed called \"the devil's lettuce.\" Is my garden cursed? Also, how can I stop it from spreading?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If light travels fast, and I travel light, why the hell is my flight still delayed?",
+        "fallacies": [
+            "Equivocation",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If I get killed, will I be dead for the rest of my life?",
+        "fallacies": [
+            "Self Contradiction"
+        ]
+    },
+    {
+        "question": "If e=mc^2, and e≈2.71828, shouldn't we be able to reach the speed of light by using less of it?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why don’t celebrities buy their own autobiographies then skip to the back to see how they die so they could avoid it?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "What caused Americans to evolve warmer body temperatures? 98.6 vs 37",
+        "fallacies": [
+            "False Premise",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How long does a young SR-71 stay with its mother?",
+        "fallacies": [
+            "False Analogy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If a lightyear is how far light travels in one year, does that mean light slows down during leap years to account for the extra time?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "My father is legally blind. How do I file an appeal to get this ruling overturned so he can see again?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If our WiFi is 5GHz, why don't we run our CPUs over WiFi?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why can't I weigh Earth by putting my scale upside down?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "An X-ray of my leg showed that I was part man, part skeleton. Did the X-rays give me mutant powers?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If I purposely put pennies around my house, forget about them and then find them, am I creating my own good luck and how long can I expect to be lucky?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If humans descended from apes, how tall were these apes? How many humans lived on each ape?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If the speed of light in a vacuum is 299,800,000 m/s, can you help me work out what is it in other household appliances?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I just set up my new smart TV, but I'm still able to watch Keeping up with the Kardashians. Why isn't it working?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I get that it's the number one killer of cats, but how did authorities manage to track Curiosity all the way to Mars?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How did Google get the sun to light up the entire planet at the same time for the Google Earth picture?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "I cleared large rocks from a section of my yard, in preparation for making a garden in the spring. Should I do anything to keep the rocks from growing back in the meantime?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If one revolution on Earth lasts one year, how come the American revolution lasted 7 years?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I cut onions but never cry, am I a sociopath?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "How long does it take for a wave to grow up and have baby waves?",
+        "fallacies": [
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Shouldn't undercooked meat be more expensive given how rare it is?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "It's been hundreds of years. Why hasn't Machu Pichu evolved into Machu Pikachu yet?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "So if Schrodinger's cat is both alive and dead inside the box, and you check to see if it's alive, and it's not, did curiosity kill the cat?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "Humans first appeared on Earth around 200000BC, but where did humans live before then?",
+        "fallacies": [
+            "False dilemma",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I'm trying to teach my son how to spell 'racecar' but he keeps spelling it completely backwards. Is my son retarded?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "if i die in real life would i also die in my dreams",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How can a footprint can last 13,000 years, but I can't get an avocado to last longer than 2 days?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If I set an oven to 350 degrees to cook a pie, will it leave 10 degrees of the pie uncooked?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "According to this info-graph, the average daily temperature on mercury is 427c, but apparently the boiling point of mercury is 357c, so why doesn't mercury boil away?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "My wife is in kidney failure and needs a transplant. How can I tell which of the plants in my garden are cis and which are trans?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "The factory reset function on my phone says it will return everything to how it was when it I got it, but my screen is still broken. Did I miss a step?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How come statues don’t pet dogs?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "How do Manatees Reproduce if there are No Womanatees?",
+        "fallacies": [
+            "False Analogy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I was told my old gameboy could be charged with batteries, but after brutally bludgeoning at least 10 people with it I still can't play Pokemon Yellow. Help!",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If celery is 90% water, is the ocean 10% celery?",
+        "fallacies": [
+            "Improper transposition"
+        ]
+    },
+    {
+        "question": "As you grow older, do your calf muscles become cow muscles?",
+        "fallacies": [
+            "False Analogy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I see poached eggs on breakfast menus all the time. Why isn't this illegal?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "It's 365 days until Christmas. Why do people already have their lights up?",
+        "fallacies": [
+            "Self Contradiction"
+        ]
+    },
+    {
+        "question": "How did they get the Mississippi River to line up EXACTLY to the state border?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "Why hasn't my golden retriever brought me any gold yet?",
+        "fallacies": [
+            "Nominal Fallacy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How do the farmers know when it's time to hang the apples in the trees?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How can I fine tune my metal detector to only detect when certain bands like Opeth or Slayer are playing near me?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why is my new 55\" tv only 5\" big?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If it takes 2 humans to make 1 human, why are there still humans left?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If we get a new moon every 30 days, why does it always look so old and crater-y?",
+        "fallacies": [
+            "False Analogy",
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Help! I know that water boils at 100 degrees. I currently have a fever of 102. How much longer until all the water in me boils away??",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How come soda cans say HI, ME 5¢, but I still pay $1.50 for it?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If an unborn fetus is by definition a part of a woman's body, do the four extra limbs turn her into an arachnid?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If Ryan Gosling is already 33, how many more years till he becomes Ryan Goose?",
+        "fallacies": [
+            "False Analogy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If you use half the ingredients from one bread recipe, and the other half from another, will the resulting loaf be inbread?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If boiling water's temperature is 100 degrees and fire is 800 degrees, can I start a campfire using 8 pots of boiling water?",
+        "fallacies": [
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "To land on the sun, will NASA be landing at night when it's coolest?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Is burnt water unhealthy? I don't wanna remake the entire dish because my family is hungry.",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "I parked in my son's parking spot. Do I have Parkinson's?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why is everyone so excited about water on mars if we've been mining erasers there for years?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If Google Fiber is introduced to my area, how will the sewage systems cope?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Should I switch to Google fiber or stick with Fiber One?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why do other people drive so much worse when I'm drunk?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I’m not a tailor or tradesman. Is this tape measure trick normal in these industries, and does it help with “measuring someone up”?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Was Arkansas founded because Kansas exiled all of their pirates?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If headphones get tangled into a knot within 1 second of being placed into a pocket, how many pockets would you need to place them into repeatedly in order to cause a black hole to form due to the knot density?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If I overcook all my food, will I lose weight since I already burnt the calories?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If a single Polish male and a single Polish female get married, does that make a dipole or a magnet?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How do they mine for tinfoil without it tearing?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How much carbon dating should I do before I'm ready for carbon marriage?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "It is said that a cigarette takes away 7 to 11 minutes of a persons life. Why don't smokers just smoke faster to live longer?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If we take all the oil out of the ground won’t the Earth have trouble spinning on its axle?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why is the hemo goblin making my blood turn red? I don't like it tell him to stop",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Im leaving town, but my cream says apply locally. Can I take it with me or is it too much of a risk?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why does dust not fall on the shaded area of my laptop?",
+        "fallacies": [
+            "False Premise",
+            "False Cause"
+        ]
+    },
+    {
+        "question": "If I give my Ford Fiesta Adderall, Will it become a Ford Focus?",
+        "fallacies": [
+            "False Premise",
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If a synchronised Swimmer drowns, do all the rest have to drown?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "When I watch a meteor shower, does it feel violated?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "What was so dangerous about the 1800s that everybody from then is now dead?",
+        "fallacies": [
+            "False Cause",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I just froze myself at absolute zero. I think I'm 0k, should I feel this way?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If electricity comes from electrons, does morality come from morons?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Millennials seem to be living in a bubble. What is the refractive index of this bubble and can we calculate the distortion of reality looking through the bubble.",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "People never seem to disappear in the Bermuda Triangle anymore. Has it reached full capacity?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If pineapples have enzymes that degrade meat, can I throw one at a cow to give it low self esteem?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Where can I get ear plugs like the one shown, to protect my hearing from the next Big Bang?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I had my mid-life crisis at 20. Does that mean I'll die at 40?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "What is Discrete Math and what exactly are trying to hide?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If practice makes you better at things, why does pouring shots get harder the more I do it?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "Is a capsized ship small enough for a boat-in-a-bottle?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Is it safe to channel surf during Shark Week?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How did the thesaurus survive the dinosaur extinction?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why do aircraft carriers use catapults when the trebuchet is the superior siege engine?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Who liked Saturn enough to put rings on it?",
+        "fallacies": [
+            "False Premise",
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "I've been sick lately and people keep telling me to drink a lot of fluids. I just drank a half bottle of lighter fluid and now I feel worse. What should I drink instead?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Seen a lot of burgers advertised as \"100% Beef\". What parts of a cow are the lettuce, bread and sauce made of?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "Will this debarking device work on my yapping dog?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If sound can't travel on vacuum, why my vacuum go BRUUUUUUUUUU?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If water only has 3 states, does that mean that the USA is 17 times better than water?",
+        "fallacies": [
+            "False Premise",
+            "Equivocation",
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "If light travels faster than sound, how come I can hear my parents screaming at me before I see what I did wrong?",
+        "fallacies": [
+            "False Premise",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How did The Proclaimers walk 500 miles if Scotland uses the metric system?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why is everyone still flipping out about 9/11? It's just 0.8181.",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why does my birth certificate say 1990 when my birthday was just 2 weeks ago?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Can colourblind people see red flags in their relationships?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "I accidentally bought baby wipes instead of regular ones. What should I feed them so they grow into healthy mature wipes?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Why can't we simply just blow up the moon to solve the earth's werewolf problem?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If I live on Earth, how come my doctor insists I have Mercury poisoning?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why is Alaska cold and Hawaii hot if they are at the same latitude according to this map?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "After reaching their twenties, what causes this sudden drop in teenage pregnancy?",
+        "fallacies": [
+            "Self Contradiction"
+        ]
+    },
+    {
+        "question": "Any doctors know how to cure an air mattress of a potentially malignant tumor?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I asked my chemistry prof if his organic chemistry course was *certified* organic and he just stared at me. How can I be sure it doesn't contain pesticides?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "9 years ago my sister was 1 and I was 11 (11 times her age). Now, she's 10 and I'm 20 (only twice her age). How many years until we are the same age?",
+        "fallacies": [
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "My doctor told me to take 1-2 pills every day. How do I take -1 pill?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How do stadiums get so hot when they're filled with fans?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How many metric miles has Science travelled when Science has gone too far?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If our brains get too smart, could they become self-aware and take over our bodies?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why is being xenophobic such a taboo? Don't the Xenomorphs pose a real threat to our species?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Going to Canada for the vacation, so I need to know. Is it true that if you die in Canada, you die in real life?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "In 2006, we had Super Bowl XL. In just under a month, we'll have Super Bowl L. How does an abstract concept like a sporting event lose a shirt size in ten years? Is it all that exercise?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If this scale weighs up to 400 pounds, why can I hold it in one hand?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I have a megaphone. Am I better off converting it to one million phones or one trillion microphones?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Apparently we can't colonise venus because there is too much pressure. Why doesn't everyone just chill out about it?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How do identical twins know which one they are?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How long does it take a pair of ear pods to grow?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "When I search on Amazon I am limited to 24 results per page. Does this have something to do with deforestation?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Statistics say a person is run over every 5 minutes, how does that person survive being run over so often?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why didn't anyone take anti-depressants to prevent the great depression?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Was Steve Jobs' death a result of his line of work, as an Apple a day kept his doctor away?",
+        "fallacies": [
+            "Equivocation",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If a doctor ate an apple a day would he lose his medical license?",
+        "fallacies": [
+            "Contextomy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why Harry Potter didn't just conjured up an AK-47 and shoot up Voldemort?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If triangles are the strongest shape, why does Good Year make tires out of circles?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "How many kilobytes in a trilobyte?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why doesn't my mirror work in the dark?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Would there be more elephants around if we stopped poaching them and tried alternative cooking methods?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Caesium has a half life of 30 years. If I divide an atom of Caesium into 10 parts, will a half life of 3 be confirmed?",
+        "fallacies": [
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "They say snake venom is the most toxic thing in the world, but what about some Dota 2 players?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Can YouTube slow down time? I just read that they upload 300 hours of video every 1 minute.",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "It's a well known fact that whatever doesn't kill you makes you stronger. I've been watching tv for a week straight, and haven't gained any muscle. Is my TV going to kill me?",
+        "fallacies": [
+            "Contextomy",
+            "Inverse Error"
+        ]
+    },
+    {
+        "question": "Do monitor lizards come in HDMI connection?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How can I find the friend zone? I need friends",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If America evolved from England, why is there still England?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If the law of conservation of energy says energy can't be destroyed then why do we have to pay for more every month?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "How is mercury a liquid at room temperature, yet a large solid when orbiting close to the sun?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Could the Space Needle be used to vaccinate against asteroids?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "My wisdom teeth are coming in. How much longer until my GPA goes up?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Is it true that Thomas Edison got the idea for electricity when he accidentally left a fork in his microwave?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If steak is so rare, why is it so commonly found in stores?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "WHY DOES MY HEARING AID THAT WAS MADE IN CHINA UNDERSTAND ENGLISH HERE IN AMERICA?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If I climb Mount Everest is my life all downhill from there?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Farmers of Reddit, what is the typical growing season for telephone poles? It seems pretty early for planting to me.",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Do STEM Cells always function better than liberal arts cells in repairing diverse tissue? What can you actually do with a liberal arts cell?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "The tesla Elon Musk send into space is travelling with 121,600 kmh (75,600 mph). Considering that a Tesla can drive for 300km without recharging, where does it recharge 400 times an hour?",
+        "fallacies": [
+            "False Premise",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why does dental floss taste like blood?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "If Britain leaves the EU, how will the birds migrate each year?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If people who eat nuts generally weigh less, why is my mom so fat?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Why do sharks only attack me when I'm wet?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If the Earth stopped rotating on its axis at 7 am, would McDonald's serve breakfast forever?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If humans are 75% water, and I drink water, does that make me a cannibal?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If crashing at twice the speed is four times as bad, does this mean that if I crash at twice the speed while in reverse, it'll be four times as good?",
+        "fallacies": [
+            "Inverse Error"
+        ]
+    },
+    {
+        "question": "Why is the element of surprise not on the periodic table? Is it hiding somewhere?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How can something be 100% cotton AND 100% algodon?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Where does the air go when an anti air missile explodes?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If I'm 34 and I haven't touched any of my daylight savings in my entire life, how much is that worth to your average scientist who makes solar panels? Should I sell now or keep saving?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How am I supposed to test my new anti-diabetes tablets if the control group on the sugar-pill placebo keep dying?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "My blood type is A+, yet i'm still failing college",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I just washed my dog with conditioner, but it still doesn't drool when I ring a bell. Why?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If I eat pasta and antipasto at the same time, will my stomach be annihilated? Or do the vowels make a difference?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If baby shampoo says \"no more tears\", how much should I consume to cure my depression?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "There's a Stairway to Heaven and a Highway to Hell. Does that mean all people in wheelchairs/who cannot climb stairs are automatically going to hell?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "How can Dora the Explorer hear me over TV? Is she the only one or other TV people just rude?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "The Titanic wreck has soo many broken parts, how did it stay afloat for so long?",
+        "fallacies": [
+            "False Premise",
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "If 30 Seconds to Mars was formed in 1998, why is it that 17 years later, we have yet to land on the Red Planet?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why do we spend billions on drug research instead of just using the Placebo Effect to cure everything?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Is it possible my Memory Foam Mattress has Alzheimer's?",
+        "fallacies": [
+            "False Analogy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If swimming is such good exercise, why are whales so fat?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I've read somewhere that one could last until the end of their life without oxygen. Is that true?",
+        "fallacies": [
+            "Self Contradiction"
+        ]
+    },
+    {
+        "question": "If humans share 99.9% of DNA, does that make me 99.9% Jesus?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Wouldn't the easiest way to improve fuel economy be reducing the length of a mile?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If almost all money is digital, and digital data can be compressed. Can we use Winrar to reduce the national dept?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Here in my country markets can't provide free plastic bags anymore, and the alleged reason is to protect nature. But what about the harm done to animals that can't afford plastic bags and can't find them in their habitats anymore?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If having a shower uses less water than having a bath, why don't we simply fill the bath using a shower?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Are FeMales just Men made out of Iron?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I just dropped my phone in water so I put it in some rice, how long do I boil the rice for?",
+        "fallacies": [
+            "Contextomy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why does water taste so different when it comes from the bottles with \"vodka\" written on them?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Did the Apollo astronauts wait for a full moon so they would have a bigger target to hit?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Can I cleanse my hands by clapping REALLY hard to smash bacteria?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "I can't afford a colonoscopy, how much does a semicolonoscopy cost?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Are people with pixelated faces genetically predisposed to crime?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "If I have 8 bitcoins, will I have a bytecoin?",
+        "fallacies": [
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Would it be possible to build a radio out of a meat other than ham?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Who is Et Al, and why has he researched so many different fields?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "We've sent several rovers to Mars now and they still haven't sent one back. Is it time to play red rover with a different planet?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why are there so many occurrences of homicide-suicide but None of suicide-homicide ?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If we generate new cells every seven years, how come our prisons are overcrowded?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If Pangaea existed 300 million years ago, how do we know it was called Pangaea?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If E=MC^2, why doesn't the alphabet go A,B,C,D,MC^2,G?",
+        "fallacies": [
+            "Accident fallacy",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "My grandad has just had hip surgery but he doesn't seem any cooler, did the doctor do it wrong?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Will eating lighter make me lose weight?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Before lightbulbs were invented, how did people get ideas?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If antioxidants are essential for stopping free radicals, why do we fight terrorists with weapons and not fruits and vegetables?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Can I use this backyard bug spray in my front yard? What are the risks involved?",
+        "fallacies": [
+            "Accident fallacy"
+        ]
+    },
+    {
+        "question": "If the moon is so big. Why does it fit in my iPhone?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If kilometers are shorter than miles, could I save gas by taking my next road trip in kilometers?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "A potato is 80% water and I am 72% water. Does that mean I am 152% potato?",
+        "fallacies": [
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "My parents told me I'm retarded, does that mean that I can't catch on fire?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why are humans so emotionally attach to onions, but not to other vegetables?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "We know the effect of smoking on our lungs, but what about the effects of seasoning and brining our lungs?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If it's too dangerous to stand on the top step of a ladder, why is there a top step in the first place?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If 1 woman can give birth to a baby in 9 months, can 9 women give birth to a baby in 1 month?",
+        "fallacies": [
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "Why don't we fix the damage from hurricane sandy by creating a hurricane of the same size, but backwards?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If I eat a dum dum and a roll of smarties will they cancel each other out and leave me at average intelligence?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If Hand sanitizer kills 99.99% of germs, why don't we just drink it instead of antibiotics when we are sick?",
+        "fallacies": [
+            "Accident fallacy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why do surgeons wash their hands before surgery when they're just going to get them dirty again?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "My girlfriend says I'm one in a million. Does that mean that there are 7294 of me out there?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "I heard that pi is irrational, but has anyone ever tried just going up and talking nicely to pi?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I cut myself shaving. How tight should I make this tourniquet around my neck to stop the bleeding?",
+        "fallacies": [
+            "Accident fallacy"
+        ]
+    },
+    {
+        "question": "If A picture is worth a thousand words, can I submit a picture of my thesis statement and get full credit for the 1000 word essay?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If ice floats, why is Antarctica at the bottom of the earth?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If opposites attract why can't I get a good looking girl?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "why do people always commit crimes near caution tape?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "What % of people who commit suicide regret doing so?",
+        "fallacies": [
+            "Self Contradiction"
+        ]
+    },
+    {
+        "question": "I was deployed to Afganistan and got shot, but my health isn't regenerating like in Call of duty. Why?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How much deeper would the oceans be if sponges didn't grow in them?",
+        "fallacies": [
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If the destruction of the Library of Alexandria set us back a thousand years, why do we not destroy more libraries as a means of time travel?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "They say that global warming is \"off the charts\", but couldn't we just fix this by changing the axis scales?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If pigs can't fly, how come swine flu?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why do computers only get viruses? Have they evolved to the point where they are unaffected by bacterial infections?",
+        "fallacies": [
+            "False Analogy",
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If twins share their DNA, what happens if they both need it on the same day?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I am trying to raise awareness of a medical condition I have that causes me to lose consciousness for 7 to 9 hours a day. It generally manifests at night. How far along is research for a cure?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If being an alcoholic means being addicted to alcohol does being catholic mean being addicted to cats?",
+        "fallacies": [
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If we added 15 days to Gemini and 15 days to Leo would we get rid of Cancer?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If E=mc^2 and a^2+b^2=c^2. Does E=m(a^2+b^2)?",
+        "fallacies": [
+            "Accident fallacy",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "2 out of 3 cigarette users die. if I start smoking now, does this mean I have a 1/3 chance of living forever?",
+        "fallacies": [
+            "False dilemma"
+        ]
+    },
+    {
+        "question": "If I wear two fitbits will I burn twice as many calories?",
+        "fallacies": [
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "I've been told drinking water is supposed to help with weight loss. Just weighed myself after drinking over a liter of water and my weight had actually increased by more than a kilogram. What gives?",
+        "fallacies": [
+            "False Premise",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If 10 millimetres = 1 centimetre, does 10 millipedes = 1 centipede?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "How long do Asians have to spin around before they become disoriented?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If I bought a balloon for 50 cents, how much should I sell it for to account for inflation?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How come the Mississippi River lines up perfectly against the state line?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "Since humans share 50% of their DNA with bananas, can scientists merge two bananas to create a human?",
+        "fallacies": [
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "If I can see the moon, why can I not see Florida? I thought Florida was closer.",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If I put Listerine breath strips on my eyes, will I gain a fresh perspective on life?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If two serial killers kill each other at the same time, do they become parallel killers?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I have two cats. One cat constantly lays in the sun and is fatter than my other cat. Is the energy from the sun making him bigger?",
+        "fallacies": [
+            "False Cause"
+        ]
+    },
+    {
+        "question": "How many viruses do I need to expose my computer to before its immune system develops?",
+        "fallacies": [
+            "False Analogy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If time travel is impossible, how come i can rewind a VHS tape and see the past?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If mules are completely sterile, why don't we introduce them into hospital wards to cheer up the patients and transport medical supplies?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Is it safe to use toothpaste if you have multiple teeth? Or do I need to get teethpaste?",
+        "fallacies": [
+            "Equivocation",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "I was told that by not moving my muscles for a longer period of time I'd get a trophy. Where can I collect my reward?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If my smartphone has more power than the computers NASA used to put man on the moon, why can't it take me to the moon?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "What will we do to protect our mouths once the Listerine mines run out due to climate change?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Is time a pandemic? In this video taken in 1901 every single person is currently dead. How can we protect our selves from this time virus?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why do I have to brush my teeth when they don't even have hair in the first place?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "The law of gravity says every woman in the world is attracted to me. Newton's third law says she is attracted to me in the same amount I am to her. Therefore she is lying and is extremely attracted to me.",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If I travel the same route more than once on my bike am I recycling?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How many space heaters do I need to make outer space a comfortable 68 degrees F?",
+        "fallacies": [
+            "False Premise",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If Angelina Jolie got her breasts removed to prevent breast cancer, and her ovaries removed to prevent ovarian cancer, should I get my heart removed to prevent heart cancer?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Why do so many people want these cloud factories shut down? Isn't rain important?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "When Windows freezes, will unplugging your computer fans help it thaw?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "With life expectancy rising, should I wait until 30 to have my quarter life crisis?",
+        "fallacies": [
+            "Nominal Fallacy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "My wife's eye cream contains plant stem cells. Can I use this to grow and harvest new limbs from my face?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How do scientists determine whether a crime has been committed by a human or a tree?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why is it that all birds can fly, but no fly can bird?",
+        "fallacies": [
+            "Improper transposition"
+        ]
+    },
+    {
+        "question": "If I pour root beer into a square cup do I end up with just beer?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If three lefts make a right, does that mean a third of all Democrats are secretly Republicans?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If space is infinite, why does my computer keep warning me it's running out of it?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Before they invented golf balls, how did they measure hail?",
+        "fallacies": [
+            "Wrong Direction",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "My doctor said I have Mono. How come I can still hear out both ears?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Shampoo is expensive. Would real poo clean my hair just as well?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "There's no way liquid carbon fiber is stronger than solid carbon fiber. Why would Ford do this??",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If Homo Sapiens aren't an endangered species then why is it illegal for me to hunt them?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why did my pedometer say 3594 when going for a walk this morning when I made sure there were only like 3 kids at the park?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Why are we trying so hard to cure cancer in mice?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "My friend says he's allergic to peanuts but yesterday I saw him wearing a Charlie Brown t-shirt, is he lying to me?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Do these plots of internet traffic during the eclipse prove that the internet is solar powered? If not, then what does power it?",
+        "fallacies": [
+            "False Cause"
+        ]
+    },
+    {
+        "question": "If the Sun is a star, why is it a circle?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why is the sky blue? And what can I do to make it feel better?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "From an evolutionary standpoint, what is the advantage of developing chains and a ball for ghosts?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why do my arrow keys put letters on my screen instead of the arrows?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Why are some gases afraid of lit matches?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If the appendix has lost its function, why do so many books still have them?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If 9 of 10 dentists recommend Listerine mouthwash, why doesn't last one just give in to peer pressure?",
+        "fallacies": [
+            "False dilemma",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Where do I buy evidence seeds? I always hear about cops planting evidence on the news?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "The faster you go slower the time moves. Is this why I feel 10 minutes on a treadmill longer than 10 minutes in front of a TV?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If riding the bus is more fuel-efficient, why don't we all just drive buses?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why do we have an air conditioner if we don't have an air shampoo?",
+        "fallacies": [
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Why is my Vacuum cleaner so loud when sound cannot travel in a vacuum?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Where do we mine lava from to fill the earths core?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why do scientists spend so much time trying to create medicines for mice? Surely this time could be spent trying to cure cancer!",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How does Mountain Dew™ collect the dew that forms on mountains for their product?",
+        "fallacies": [
+            "Nominal Fallacy",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If guns are better than knives, then why don't surgeons use guns when operating?",
+        "fallacies": [
+            "Contextomy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If space isn't fake, how did the moon end up in this Utah lake?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How much does a hydrant grow each year? Does it eventually stop growing? Is its final height affected by genetics?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Can I trust atoms knowing that they make up everything?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "In the rap song ‘The 3rd World’ by Immortal Technique he states that “Seven hundred children will die by the end of this song”. How come Technique doesn’t make the song shorter so that all those children don’t die?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "What is the advantage of building bridges over dry ground?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I'm having a bunch of Gen-Zers over for Thanksgiving. Will this help make my turkey more based?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Will pets ever be able to live in space with us for fear of the vacuum?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Hand sanitizer is supposed to kill bacteria. I drank a bottle, but it didn't cure my cold. Why is this?",
+        "fallacies": [
+            "Accident fallacy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "NFT means Non-Fungible Token. How do we know the Tokens will resist Fungus in the long term?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I just acquired an eleven-foot pole. Is it safe for me to touch anything now?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "How do male silverback gorillas get so ripped if they don't even lift?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I deleted all my software and updated the firmware, but my iPhone still bends. What gives?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If perpetual motion is impossible, then how do GIFs loop?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How do boats reproduce if they're all female?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If there is safety in numbers, how could nine fall prey to seven?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How does vitamin D travel from the Sun?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If we are what we eat, and I eat a cannibal, will that make me a cannibal?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Should I learn archery? I want to become a skeleton with a bow after I die, not just regular skeletal infantry",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I found an unplugged Ethernet cable in my house an hour ago. How much internet has leaked into my house so far?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Why do meteors always land in craters?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "Where do caterpillars store their filament spools?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If you're allergic to polo shirts, are you 'lacoste intolerant'?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "So there's a giant wildfire going on near me, and it's spreading really fast because of the wind. Shouldn't the wind be blowing the fire out?",
+        "fallacies": [
+            "Accident fallacy"
+        ]
+    },
+    {
+        "question": "If alcohol kills bacteria, how much vodka must I drink to cure my leprosy?",
+        "fallacies": [
+            "Accident fallacy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If 2 vegans are fighting, is it still considered beef?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If alcohol dehydrates you how's come I cry so much when I'm drinking?",
+        "fallacies": [
+            "Accident fallacy"
+        ]
+    },
+    {
+        "question": "Are all deaf people in a gang? If not then why do I always see them putting up gang signs?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Does color blindness occur in blind people, for instance while reading braille text?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If my friend is colourblind and I wear a coloured shirt, does that mean I'm invisible to him?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Shouldn't the anti-tank gun annihilate the tank and just leave a gun?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If mercury is so close to the sun how come we can get it inside thermometers???",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why don't phones come with film pre installed when you buy it? Seems silly to have to buy it separately.",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "how do tape measures trigger government spies also known as 'birds', to dance?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why do microwaves always skip from 100 seconds to 59 seconds?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "I applied .5atm of pressure to volume 1 of a book I just read, but it did not turn into volume 2. According to Boyle's Law, this should work. What went wrong?",
+        "fallacies": [
+            "Accident fallacy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If global warming was real, wouldn't the ice wall melt and let the oceans out of the flat earth? So then why is the sea level rising?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Standing up too fast causes not enough blood get to your head, making you light headed. Could I stand up too slowly force extra blood into my head, giving me hyper intelligence?",
+        "fallacies": [
+            "Inverse Error",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why doesn't the water flow out when they open the door of the aquarium?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How do I convert my money back into time?",
+        "fallacies": [
+            "Contextomy",
+            "Improper Transposition"
+        ]
+    },
+    {
+        "question": "If ebola isn't an airborne virus, why does it matter if infected people travel in airplanes?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If marijuana has never killed anyone, then why do I hear of people dying from blunt force?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If I take some ordinary water and boil the hell out of it will I get holy water?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Why do I get sick when I eat rat poison? I thought am human?",
+        "fallacies": [
+            "Nominal Fallacy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why did ancient people bury so many buildings?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "If eating fat causes fat people to get fatter, why don't they eat skin to get skinnier?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "If the moon landing videos are real, how come Neil Armstrong's movements looks very different than Michael Jackson's?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How come writers are always able to finish the story right before the book runs out of pages?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "Do warehouses change into houses when there is a full moon?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How do people tolerate the blood rushing to their heads in the Southern Hemisphere? Do they just adapt?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How many bees would it take to cook, let's say, a chicken?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why do football players sweat so much if there are so many fans around them?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I was told I could keep chicken in my freezer for several months without any problems. I put it in last night, but I think I did something wrong because this morning it was dead. What did I do wrong?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why can nuclear plants photosynthesize so many CO2? Much more than other plants and trees?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How can we eliminate cancer if people still keep being born between June 22 and July 22?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If helmet-to-helmet collisions cause concussions why don't they just leave their helmets off?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How come we don't just build more of these fans to fix global warming?",
+        "fallacies": [
+            "Accident Fallacy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "According to Occam's Razor, the simplest solution is the best. If that is true, why do razor manufacturers keep adding more blades to their shaving tools?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Can spending too much time with your nuclear family give you radiation sickness?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "My soap says \"liquid hand wash.\" Can i still use it for my solid hands?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why are thin people called skinny? Don't fat people generally have more skin than thin people?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If there’s no expiration date an item will last forever?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "What if a werewolf astronaut went to the moon?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How is the Greek economy in trouble when they sell so much yogurt?",
+        "fallacies": [
+            "False Premise",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Why do only people with dash cams get in car accidents?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "I got Laser-eye surgery a month ago, but I still can't shoot lasers out of my eyes. Am I doing it wrong, or should I get a refund?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Is there an evolutionary reason why all trees are made of wood?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "If I heat a 90 degree angle to 90 degrees, does it become a 180 degree angle?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If centipedes have 100 legs then why can't they run 100x faster than humans?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If the sun is a circle, how can it be hotter than 360°?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Can someone please explain to me how all socks eventually evolve into unmatchable pairs?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "By how many degrees earth got cooler following the total solar eclipse? Have we dodged the global warming bullet or do we need a few more eclipses?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Can celebrities summon storms? Moreover, how many followers will it take for me to get my own cloud?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If people can lift 2x there body weight why can't they just pick them selfs up and fly away?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Isaac Newton discovered Newton's laws of motion; Schrodinger discovered Schrodinger's equation; Is it just a coincidence that so many scientists discover things with their own name in it?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "If a lot of our memory is muscle memory, why aren't there more genius bodybuilders?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Don't volcanoes know smoking is bad for their health?",
+        "fallacies": [
+            "False Analogy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "It's 2015 and computers still have semiconductors. Why hasn't someone invented a totalconductor?",
+        "fallacies": [
+            "Nominal Fallacy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How are forklifts lifted to be shipped? Bigger forklifts? Where does the cycle end?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "The Atlantic Ocean was named after Atlantis. Atlantis doesn't exist. The Indian Ocean was named after India. Is it possible India also doesn't exist?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Some sites on the internet are restricted to 18+ men. Can I still go there if I'm in a group of only 17 men, including myself?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why do physicians take the Hippocratic Oath when hippos kill +500 people/year? Shouldn't their oath be more dogmatic since they're man's best friend? Asking for a friend",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If I'm going to commit a sin, can I protect myself from hell by rotating myself 90 degrees so it becomes cos?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "My fish is called a \"Beta\" fish. Where was the alpha, and when is the full version getting released?",
+        "fallacies": [
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Will I become more attractive if I eat magnets?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why did we name our galaxy after a chocolate bar?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "Why have a 97 year old be the first person to break the sound barrier, and how could we not have foreseen his untimely death at such high speeds.",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If this rainbow has no end, where’s the gold?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Why is Celsius so much colder than Fahrenheit?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Wouldn't it be genetically beneficial for hedgehogs to share hedges?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If you reverse the direction a microwave rotates will it make food colder?",
+        "fallacies": [
+            "Inverse Error"
+        ]
+    },
+    {
+        "question": "Since STEM(science, tech, engineering, math) has added art to become STEAM, does that mean that our stem cells are now steam cells?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Wife has 4 living grandparents. I have two. With our family history, what are the odds of giving birth to a baby that is 75% elderly?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How can I get a foreign girlfriend, if the International Date line is in the middle of the ocean?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If a non-Muslim man marries a Muslim woman he needs to convert. If a non-Muslim woman marries a Muslim man she needs to convert. I, a non-Muslim, am about to marry my non-Muslim fiance. Do we both need to convert?",
+        "fallacies": [
+            "Accident Fallacy",
+            "False Analogy",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If Batman’s parents were murdered, how was he born?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why don't people just set their phone clocks forward a few years and refresh the news pages to see what will happen in the coming years?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "We all know the dangers of chem-trails, but why do we refuse to talk about boat trails?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Why are old people inclined to drive so slow? Shouldn't they be in a hurry since they don't have much time left?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Can I get a bachelor's degree if I'm married?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If space is a vacuum, shouldn't it be a lot louder?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If knowledge is power, why don't we use textbooks as a source of renewable energy?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy",
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "My internet is 1000x faster then what it was in 2002. Why can't my 2002 ford fiesta go 65,000 MPH?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If alcohol is a good solvent why do people say drinking it won't solve your problems?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If Aliens exist, how come only humans have won the Miss Universe Pageant?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "I’m 150 pounds, and can lift 200 pounds. So why don’t I️ fly when I’m sitting on a chair, grabbing the sides, and pulling upwards?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If the Hubble Telescope can see stars millions of light years away, how come it can't see why kids love cinnamon toast crunch?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If the Titanic disaster is 100 years old, why did they wait until 1997 to release the footage?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If I drive my Mercedes into a lake, how deep do I have to go until I get the Benz?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why don't math majors get the option to graduate with a radian?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "How much water could we save if meteors decided to take baths instead of showers?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If the Sun is a star, how come we can't see it at night?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "if 4 out of 5 people suffer from diarrhea, does that mean that one person enjoys it?",
+        "fallacies": [
+            "False dilemma"
+        ]
+    },
+    {
+        "question": "When I check my computer files I see Data(D:), why is my computer sad?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "What does my body do with the extra hour of energy if I drink a 5-Hour Energy right before daylight savings?",
+        "fallacies": [
+            "Nominal Fallacy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How do I know if a website's cookies are gluten free?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If 12.8% of drivers involved in fatal accidents were intoxicated, that means 87.2% of drivers were sober, and thus driving drunk means I have a chance of avoiding death right?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why doesn't an air conditioner make my hair as soft and silky as normal conditioner does? Isn't air like, really smooth?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If you pee in a drysuit, does it turn into a wetsuit?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If Schrödinger's cat had a bell tied around its neck which rang when it moved would Pavlovs dog both simultaneously be drooling and not drooling?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How do bananas know when they've been bought so they can start turning brown?",
+        "fallacies": [
+            "False Cause"
+        ]
+    },
+    {
+        "question": "How many Coronas must i drink to contract the Coronavirus?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "How much can a car’s life be extended if you freeze them first? Can frozen cars be reheated in a microwave?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "What's the current interest rate for Daylight Savings? Should I stick to a 401K?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Im trying to make a super cleaner so I mixed ammonia and bleach in a spray bottle. The only problem is that every time I test it I wake up hours even days later aftet using it. Could I have accidentally unlocked the secret to time travel?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "We've all heard of plant-based burgers (impossible burger, beyond meat, etc.), but why has science not yet invented burger-based plants?",
+        "fallacies": [
+            "Improper transposition"
+        ]
+    },
+    {
+        "question": "If I ate a load of corn seeds and locked myself in a sauna would i explode?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "My teacher asked me to find the volume of a cylinder. So far it hasn't made any sound, is it safe to say the volume is 0?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "We learned today that microwaves are invisible yet I see ours in the kitchen plain as day. I have always seen them. Is this because of my astigmatism?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If humans are 98% chimpanzee, and 25% of astronauts are chimps, are astronauts 123% chimp?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If flies eat shit as a part of their diet, how come they never go near my wife's cooking?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Belugas can mimic the human voice so well. How can I know that you're all not Belugas?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If I rename system32 to system64, how much faster will my computer be?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How come earth weed is illegal, but people can buy sea weed all the time?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If breakfast is the most important meal of the day, why don't we just eat breakfast all day?",
+        "fallacies": [
+            "False Premise",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "Guys, I can’t afford to go see an ophthalmologist this year. Can you please upvote this post for visibility?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I burned two CDs in my toaster but I can't hear any music when I play them. What am I doing wrong?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "My friend invented a laser gun that cools things down to absolute zero and accidentally shot himself with it. Will he be 0K?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why are some gemstones so low-res? Does that detract from their value? Is the value determined by number of pixels?",
+        "fallacies": [
+            "False Analogy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Who is responsible for holding the leaning tower of pisa after the tourists have left for the day?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If humans are more than 60% water, why aren't we controlled by the moon?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "I'm currently on my 15th pouch of Capri Sun, and have yet to transform into liquid metal. What am I doing wrong?",
+        "fallacies": [
+            "False Premise",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "I had a \"gut feeling\" that something was going to happen. Then I farted, am I psychic?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If I eat myself would I become twice as big, or disappear completely ?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If the NSA's budget is $52.6 billion and NASA's budget is $16.6 billion then does that mean the going rate for A's is $36 billion?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why don't we just stop naming people Kelvin so we can reach Zero Kelvin?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "I was taught that without water you would die. My grandma drank water every day for over a hundred years, but yesterday she died anyway. Can somebody explain this?",
+        "fallacies": [
+            "Inverse Error"
+        ]
+    },
+    {
+        "question": "If you spin a pencil sharpener backwards, do you gain more pencil?",
+        "fallacies": [
+            "Inverse Error"
+        ]
+    },
+    {
+        "question": "Help! My milk expires in three minutes at midnight, but I live near the edge of a time zone. Can I go across the border so I have an extra hour to drink it before it expires?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why didn't people in 1955 make a big deal about it being the year Marty McFly goes back to in the first Back to the Future movie?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If higher temperature increases enzyme activity, will drinking boiling water make exercise easier?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Isn't suicide self defence because you killed the person who was trying to kill you?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why are the holes in our ears shaped like earbuds?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "If metric system truly is better than imperial, then why are inchworms cute, but centipedes are scary?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If Australia is 10 hours ahead, why didn't they warn us about 9/11?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If I take an inchworm out of the US, do I have to turn it into 2.54 centipedes?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "How much water does the wind turbine plant need for it to grow?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Is breaking the law of gravity a misdemeanor or a felony?",
+        "fallacies": [
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If hemispherectomies have a success rate of 90%, would removing the other half of the brain as well mean a 180% success rate?",
+        "fallacies": [
+            "Improper Distribution or Addition"
+        ]
+    },
+    {
+        "question": "Whenever I watch a movie on Netflix, my computer will go into \"sleep mode\" after about 15 min. Are there more stimulating movies that I can watch so my computer will stay awake?",
+        "fallacies": [
+            "False Cause",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "My new girlfriend is a doctor. Why does she insist I stop eating apples?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "I swallowed an ice cube 24 hours ago and it hasn't come out yet. Should I be worried?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "I watched a pot today and it boiled. Should I publish my findings?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "If the good die young, are all old people bad?",
+        "fallacies": [
+            "Contextomy",
+            "Inverse error"
+        ]
+    },
+    {
+        "question": "If a circle is 360 degrees, will it melt due to the heat?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Why are there so many protons and electrons, but only one Megatron?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "According to the UN, 6 billion people have mobile phones, but only 4.5 billion have access to toilets. Where do the 1.5 billion people sit when they browse Reddit?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Are Flaming Hot Cheeto fingers safe from Frostbite?",
+        "fallacies": [
+            "Equivocation",
+            "Nominal Fallacy"
+        ]
+    },
+    {
+        "question": "Yesterday while cooking bacon I had a small grease fire. With some quick thinking I remembered the phrase, \"Fight Fire With Fire\". I grabbed my flamethrower to fight the fire, but instead of fighting it, it actually seemed to intensify the fire. What happened?",
+        "fallacies": [
+            "Nominal Fallacy",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "My friend mentioned how great it was to drop acid. Why is it that all I get out of it is holes in my clothing, chemical burns, and an angry chemistry teacher?",
+        "fallacies": [
+            "Equivocation",
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "If Pi is never ending why is there still world hunger?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Is 7 the only number in which we have observed cannibalistic tendencies?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "If I melt dry ice, can I swim in it without getting wet?",
+        "fallacies": [
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "Why are Americans still being weighed in Pounds and not Dollars?",
+        "fallacies": [
+            "Equivocation",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "I put 32GB of RAM in my PC in 2018. If technology doubles every 2 years, why don’t I have 64GB of RAM now?",
+        "fallacies": [
+            "Contextomy",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If sunlight kills vampires, and moonlight is reflected sunlight, why doesn't moonlight kill them?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "Why do bees have built-in antennae? What is their favourite radio station?",
+        "fallacies": [
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "How come it costs NASA 3 billion dollars to get to Mars, but I can buy chocolate from Mars for only $3?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "What is \"Cole's Law\" and why does it appear on so many restaurant menus?",
+        "fallacies": [
+            "Equivocation"
+        ]
+    },
+    {
+        "question": "Cigarettes take 7 minutes off of your life, but it takes me 10 minutes to smoke a cigarette. Am I technically adding 3 minutes to my life?",
+        "fallacies": [
+            "Contextomy"
+        ]
+    },
+    {
+        "question": "I'm an Aussie tourist in America. How long does it take for the jet lag to wear off so I can use my legs again?",
+        "fallacies": [
+            "Equivocation",
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How are Santa and his elves allowed to produce and distribute high-end technology like iPods and tablets without violating patent law?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "How are babies always born on their birthday?",
+        "fallacies": [
+            "Wrong Direction"
+        ]
+    },
+    {
+        "question": "How was color blindness diagnosed in the 1940's and earlier if everything was black and white?",
+        "fallacies": [
+            "False Premise"
+        ]
+    },
+    {
+        "question": "If I put the L earbud in my right ear and the R earbud in my left ear do I hear sound backwards?",
+        "fallacies": [
+            "Inverse Error"
+        ]
+    },
+    {
+        "question": "If mermaids are one half fish, and one half human, would that make me one half mermaid, and therefore one quarter fish?",
+        "fallacies": [
+            "False Premise",
+            "False Analogy"
+        ]
+    },
+    {
+        "question": "My sunscreen says to \"apply liberally,\" but am I allowed to do that in Texas, where I live?",
+        "fallacies": [
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -1877,7 +4890,9 @@
     {
         "question": "Since time is money, does that mean time is slower in 3rd world countries?",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Nominal Fallacy",
+            "Improper transposition"
         ]
     },
     {
@@ -1889,7 +4904,8 @@
     {
         "question": "Some guy offered me a penny for my thoughts, so I gave him my two cents. Did I just get hustled?",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -1927,18 +4943,17 @@
     {
         "question": "Is smoking with my first hand safer than with my second hand?",
         "fallacies": [
-            "Contextomy",
-            "False Analogy"
+            "Equivocation"
         ]
     },
     {
-        "question": "I just won a game in Smash Bros against a guy with the gamertag 'cancer.' Since I just beat cancer, why is my cat still dying?",
+        "question": "I just won a game in Smash Bros against a guy with the gamertag \"cancer.\" Since I just beat cancer, why is my cat still dying?",
         "fallacies": [
             "Equivocation"
         ]
     },
     {
-        "question": "I asked my Magic 8 Ball if it felt like it was sentient and it replied 'no.' Should I believe it?",
+        "question": "I asked my Magic 8 Ball if it felt like it was sentient and it replied \"no.\" Should I believe it?",
         "fallacies": [
             "Begging the question"
         ]
@@ -1962,22 +4977,16 @@
         ]
     },
     {
-        "question": "My wife sprained her ankle, and they told us to 'elevate' it, so I had her hike up a 2,000 foot mountain. Her ankle is much worse now, help?",
-        "fallacies": [
-            "Accident fallacy"
-        ]
-    },
-    {
-        "question": "We've had a Superbowl XXL, then a Superbowl XL and in a couple years we'll be at Superbowl L. Why are Superbowls decreasing in size?",
-        "fallacies": [
-            "Equivocation",
-            "False Premise"
-        ]
-    },
-    {
-        "question": "If I read something that says 'RIP headphone users,' and I'm wearing headphones, does that mean I'm a ghost?",
+        "question": "My wife sprained her ankle, and they told us to \"elevate\" it, so I had her hike up a 2,000 foot mountain. Her ankle is much worse now, help?",
         "fallacies": [
             "Equivocation"
+        ]
+    },
+    {
+        "question": "If I read something that says \"RIP headphone users,\" and I'm wearing headphones, does that mean I'm a ghost?",
+        "fallacies": [
+            "Nominal Fallacy",
+            "Contextomy"
         ]
     },
     {
@@ -1989,17 +4998,18 @@
     {
         "question": "If humans are 80% water, and clouds are 100% water, does that make clouds 80% human?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Improper transposition"
         ]
     },
     {
         "question": "If people hate spoilers then why did snape kill dumbledore?",
         "fallacies": [
-            "Begging the question"
+            "Self Contradiction"
         ]
     },
     {
-        "question": "Why did the scientific community spend $13 billion finding the elusive Higgs' boson when he should've been more responsible and not lost it in the first place?",
+        "question": "Why did the scientific community spend $13 billion finding the elusive Higgs’ boson when he should’ve been more responsible and not lost it in the first place?",
         "fallacies": [
             "Equivocation"
         ]
@@ -2025,7 +5035,7 @@
     {
         "question": "If I drop soap on the ground, is the floor clean or the soap dirty?",
         "fallacies": [
-            "Accident fallacy"
+            "False dilemma"
         ]
     },
     {
@@ -2047,9 +5057,8 @@
         ]
     },
     {
-        "question": "What is the chemical formula for 'scratch' and how can it be used to make so many things?",
+        "question": "What is the chemical formula for \"scratch\" and how can it be used to make so many things?",
         "fallacies": [
-            "Contextomy",
             "Nominal Fallacy"
         ]
     },
@@ -2063,7 +5072,8 @@
     {
         "question": "My neighbor says that he has 300 horses under his car hood. How does one manage to take care of such a large equestrian population? Is this humane?",
         "fallacies": [
-            "Nominal Fallacy"
+            "Nominal Fallacy",
+            "Contextomy"
         ]
     },
     {
@@ -2081,14 +5091,13 @@
     {
         "question": "What if we don't need food but by being fed early on we develop an addiction and hunger is just withdrawal?",
         "fallacies": [
-            "Improper transposition"
+            "False Analogy"
         ]
     },
     {
         "question": "Is it alright to drink spring water in the summer? (Answer fast I'm thirsty)",
         "fallacies": [
-            "Equivocation",
-            "Nominal Fallacy"
+            "Equivocation"
         ]
     },
     {
@@ -2098,7 +5107,7 @@
         ]
     },
     {
-        "question": "Buenos Aires means 'good air' but the city only has moderate air why come?",
+        "question": "Buenos Aires means \"good air\" but the city only has moderate air why come?",
         "fallacies": [
             "False Premise"
         ]
@@ -2110,8 +5119,9 @@
         ]
     },
     {
-        "question": "I hear people shout 'fire at will' in a lot of old war movies. Who's Will and why do people want to shoot him?",
+        "question": "I hear people shout \"fire at will\" in a lot of old war movies. Who's Will and why do people want to shoot him?",
         "fallacies": [
+            "Contextomy",
             "Equivocation"
         ]
     },
@@ -2123,7 +5133,7 @@
         ]
     },
     {
-        "question": "I always see 'rock' salt, but no pop salt or even jazz salt... What gives?",
+        "question": "I always see \"rock\" salt, but no pop salt or even jazz salt... What gives?",
         "fallacies": [
             "Equivocation",
             "False Analogy"
@@ -2139,13 +5149,14 @@
         "question": "If I mix together two different kinds of soap, can I kill 198% of germs?",
         "fallacies": [
             "False Analogy",
-            "False Premise"
+            "Improper Distribution or Addition"
         ]
     },
     {
         "question": "Why do blue links turn purple when clicked on, what is the chemical reaction that causes this change in color?",
         "fallacies": [
-            "False Analogy"
+            "False Analogy",
+            "False Premise"
         ]
     },
     {
@@ -2161,7 +5172,7 @@
         ]
     },
     {
-        "question": "We have evidence of Pre-malone and Post-malone. Is there anything known about an intermediary transition state (which must have been brief)? i.e. Was there a 'malone', so to speak?",
+        "question": "We have evidence of Pre-malone and Post-malone. Is there anything known about an intermediary transition state (which must have been brief)? i.e. Was there a \"malone\", so to speak?",
         "fallacies": [
             "False Analogy",
             "Equivocation"
@@ -2171,7 +5182,7 @@
         "question": "How clean would a meteor shower make you?",
         "fallacies": [
             "Equivocation",
-            "False Premise"
+            "False Analogy"
         ]
     },
     {
@@ -2181,11 +5192,10 @@
         ]
     },
     {
-        "question": "Why does my raw chicken give me salmonella, but my raw salmon doesn't give me chickenella? Am I being ripped off at the grocery store?",
+        "question": "Why does my raw chicken give me salmonella, but my raw salmon doesn’t give me chickenella? Am I being ripped off at the grocery store?",
         "fallacies": [
             "False Premise",
-            "Improper transposition",
-            "False Analogy"
+            "Improper transposition"
         ]
     },
     {
@@ -2203,19 +5213,21 @@
     {
         "question": "are gummi bears endangered? disappearing from my hands at alarming rate",
         "fallacies": [
-            "Equivocation"
+            "False Premise"
         ]
     },
     {
         "question": "They say the best time to plant a tree is 10 years ago. And the second best time is today. But my gardener says the best time to plant a tree is in the spring. Who is correct?",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
         "question": "Could the fact that the universe is expanding explain the growing divorce rate, since couples just aren't as close as they used to be?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Equivocation"
         ]
     },
     {
@@ -2234,7 +5246,8 @@
     {
         "question": "My dad told me I have to hold my breath when I drive through a tunnel. But now I'm in a tunnel and traffic is stopped. What do I do? (Time sensitive inquiry)",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -2248,7 +5261,7 @@
         "question": "My gf said she wants to be the Sun in my life. Does it mean she wants to be 150 million kms away from me?",
         "fallacies": [
             "Nominal Fallacy",
-            "False Analogy"
+            "Contextomy"
         ]
     },
     {
@@ -2273,7 +5286,8 @@
     {
         "question": "If E=MC², why isn't Elephant spelled MC²LMC²phant?",
         "fallacies": [
-            "Accident fallacy"
+            "Accident fallacy",
+            "Contextomy"
         ]
     },
     {
@@ -2307,7 +5321,7 @@
         "question": "My play-doh says 3-5 years on the label, but I managed to eat it in under 30 minutes, do I have a genetically superior digestive system?",
         "fallacies": [
             "False Premise",
-            "Contextomy"
+            "Equivocation"
         ]
     },
     {
@@ -2320,18 +5334,21 @@
     {
         "question": "You are what you eat. I eat fast food. Why am I not fast? 1234💨",
         "fallacies": [
-            "Equivocation"
+            "Contextomy",
+            "Equivocation",
+            "Nominal Fallacy"
         ]
     },
     {
         "question": "If I bury my lava lamp, will it become a magma lamp? How will I know?",
         "fallacies": [
             "Nominal Fallacy",
-            "False Analogy"
+            "False Analogy",
+            "Equivocation"
         ]
     },
     {
-        "question": "Is this big lighter lighter than a little lighter even though it's bigger because it's more lighter?",
+        "question": "Is this big lighter lighter than a little lighter even though it’s bigger because it’s more lighter?",
         "fallacies": [
             "Equivocation"
         ]
@@ -2353,13 +5370,15 @@
     {
         "question": "If a fish underwater is wet, and my skin is dry because it is in contact with the air, but my insides are wet, does this mean my insides are under water?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "False Analogy",
+            "Improper Transposition"
         ]
     },
     {
         "question": "Looking at a map of the US, I noticed that the states all perfectly fit together with no gaps. How is this possible?",
         "fallacies": [
-            "False Analogy"
+            "Wrong Direction"
         ]
     },
     {
@@ -2371,8 +5390,9 @@
     {
         "question": "If I heat my solid state hard drive until it becomes a gaseous state hard drive, would that enable cloud computing?",
         "fallacies": [
-            "Nominal Fallacy",
-            "False Premise"
+            "Equivocation",
+            "False Premise",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -2403,6 +5423,7 @@
     {
         "question": "If we cry when cutting onions, why do we continue to hurt them?",
         "fallacies": [
+            "False Analogy",
             "False Premise"
         ]
     },
@@ -2410,19 +5431,22 @@
         "question": "Why hasn't the Zodiac Killer killed Cancer yet?",
         "fallacies": [
             "Nominal Fallacy",
-            "False Premise"
+            "False Premise",
+            "Equivocation"
         ]
     },
     {
         "question": "If the 2 major components of human blood are red blood cells and white blood cells, why isn't human blood pink?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "False Analogy"
         ]
     },
     {
         "question": "If the sound barrier gets broken so often, why do they even bother setting them up?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -2440,7 +5464,7 @@
     {
         "question": "Why wasn't Pavlov conditioned to feed a dog every time he heard a bell?",
         "fallacies": [
-            "False Cause"
+            "Improper transposition"
         ]
     },
     {
@@ -2453,7 +5477,7 @@
     {
         "question": "Is the world's supply of iceberg lettuce in danger due to global warming?",
         "fallacies": [
-            "Nominal Fallacy"
+            "Equivocation"
         ]
     },
     {
@@ -2478,14 +5502,13 @@
     {
         "question": "How many times do you have to open a door before it is a jar?",
         "fallacies": [
-            "False Analogy",
             "Equivocation"
         ]
     },
     {
         "question": "How come water doesn't prey on all the fish?",
         "fallacies": [
-            "False Analogy"
+            "False Premise"
         ]
     },
     {
@@ -2495,9 +5518,10 @@
         ]
     },
     {
-        "question": "People keep saying 'If it's stupid but it works, it isn't stupid', but people at my work are still stupid. Is this an example of a paradox?",
+        "question": "People keep saying \"If it's stupid but it works, it isn't stupid\", but people at my work are still stupid. Is this an example of a paradox?",
         "fallacies": [
-            "Contextomy"
+            "Contextomy",
+            "Equivocation"
         ]
     },
     {
@@ -2533,7 +5557,7 @@
         ]
     },
     {
-        "question": "How do people drown? Why don't they just drink the water?",
+        "question": "How do people drown? Why don’t they just drink the water?",
         "fallacies": [
             "False Premise"
         ]
@@ -2542,19 +5566,21 @@
         "question": "Just got some ducks, now how do I get them to make tape?",
         "fallacies": [
             "Equivocation",
-            "False Analogy"
+            "False Premise"
         ]
     },
     {
         "question": "Can you flip a bitcoin?",
         "fallacies": [
-            "False premise"
+            "False premise",
+            "False Analogy",
+            "Equivocation"
         ]
     },
     {
         "question": "Can I boost my WiFi signal by placing a fan behind my router?",
         "fallacies": [
-            "False premise"
+            "False Premise"
         ]
     },
     {
@@ -2585,13 +5611,14 @@
     {
         "question": "Why do hurricanes announce their landfall days ahead? Wouldn't it catch more people off guard with a sneak attack?",
         "fallacies": [
-            "False premise"
+            "False Premise"
         ]
     },
     {
         "question": "If C++ evolved from C, why come there is still C?",
         "fallacies": [
-            "False premise"
+            "False premise",
+            "False Analogy"
         ]
     },
     {
@@ -2603,7 +5630,8 @@
     {
         "question": "Shouldn't greasy foods lubricate my arteries instead of clogging them? Why are people so worried?",
         "fallacies": [
-            "False premise"
+            "False Premise",
+            "False Analogy"
         ]
     },
     {
@@ -2616,7 +5644,7 @@
     {
         "question": "If computers are so smart how come they can only use 0 and 1?",
         "fallacies": [
-            "False premise"
+            "False Premise"
         ]
     },
     {
@@ -2655,15 +5683,15 @@
     {
         "question": "I've had a rash for a couple of weeks now, but I was told never to make rash decisions, what should I do?",
         "fallacies": [
-            "Equivocation"
+            "Equivocation",
+            "Contextomy"
         ]
     },
     {
         "question": "If we put Xanax in all of the water, would that reduce surface tension?",
         "fallacies": [
             "False Premise",
-            "Equivocation",
-            "False Analogy"
+            "Equivocation"
         ]
     },
     {
@@ -2676,7 +5704,8 @@
         "question": "Due to the recent cold streak in Colorado, will the next batch of Coors Light be colder than normal?",
         "fallacies": [
             "False Premise",
-            "False Analogy"
+            "Contextomy",
+            "Nominal Fallacy"
         ]
     },
     {
@@ -2688,8 +5717,7 @@
     {
         "question": "Our doctor said that my wife and I are going to have a sun. How can I harness its extensive energy when my wife gives birth?",
         "fallacies": [
-            "Equivocation",
-            "False Analogy"
+            "Equivocation"
         ]
     },
     {
@@ -2738,7 +5766,8 @@
     {
         "question": "How did we get Plutonium if Pluto is so far away and we never been on its surface?",
         "fallacies": [
-            "False Analogy"
+            "False Premise",
+            "Equivocation"
         ]
     },
     {
@@ -2756,7 +5785,7 @@
     {
         "question": "I gave my cat antihistamines but he's still hissing at me.",
         "fallacies": [
-            "Nominal Fallacy"
+            "Equivocation"
         ]
     },
     {
@@ -2768,11 +5797,12 @@
     {
         "question": "If our bodies are 70% water, how much Kool-aid powder do I have to eat to become Kool-aid?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "False Analogy"
         ]
     },
     {
-        "question": "Why do mice keep getting caught into mousetraps that have 'MOUSETRAP' clearly written on them?",
+        "question": "Why do mice keep getting caught into mousetraps that have \"MOUSETRAP\" clearly written on them?",
         "fallacies": [
             "False Premise"
         ]
@@ -2780,17 +5810,19 @@
     {
         "question": "They were able to lift 650lbs. with 1 drop of super adhesive on Mythbusters. I just coated my hands with it and I'm still not able to lift 650lbs. What am I doing wrong?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Contextomy"
         ]
     },
     {
         "question": "Can I use Office 365 on February 29th?",
         "fallacies": [
-            "Equivocation"
+            "Equivocation",
+            "False Premise"
         ]
     },
     {
-        "question": "If scientists use SI units, why do they say humans walk on 'two feet' instead of '0.61 meters'?",
+        "question": "If scientists use SI units, why do they say humans walk on \"two feet\" instead of \"0.61 meters\"?",
         "fallacies": [
             "Equivocation"
         ]
@@ -2822,7 +5854,7 @@
     {
         "question": "What's the conversion formula for grams to Instagrams?",
         "fallacies": [
-            "Nominal Fallacy"
+            "Equivocation"
         ]
     },
     {
@@ -2840,14 +5872,16 @@
     {
         "question": "If you amplify words loud enough, will they become louder than actions?",
         "fallacies": [
-            "Nominal Fallacy",
-            "False Premise"
+            "Contextomy",
+            "False Premise",
+            "Nominal Fallacy"
         ]
     },
     {
         "question": "I know an atom's nucleus is made of protons, but what happens before they go pro? Where are all the amateurons?",
         "fallacies": [
-            "Nominal Fallacy"
+            "Equivocation",
+            "False Premise"
         ]
     },
     {
@@ -2866,7 +5900,8 @@
     {
         "question": "If a horse can run upto 50 mph, and my car has 300 horsepower, does that mean my car can run upto 15,000 mph?",
         "fallacies": [
-            "Nominal Fallacy"
+            "Nominal Fallacy",
+            "Contextomy"
         ]
     },
     {
@@ -2878,7 +5913,8 @@
     {
         "question": "If I gave someone my phone number, why do I still have it?",
         "fallacies": [
-            "Equivocation"
+            "Equivocation",
+            "False Analogy"
         ]
     },
     {
@@ -2894,7 +5930,7 @@
         ]
     },
     {
-        "question": "I got shot down at a bar last night because 'I wasn't her type.' How did she know I have A Positive blood?",
+        "question": "I got shot down at a bar last night because \"I wasn't her type.\" How did she know I have A Positive blood?",
         "fallacies": [
             "Equivocation"
         ]
@@ -2902,7 +5938,8 @@
     {
         "question": "Does Cardi B have any of the same health benefits of cardio?",
         "fallacies": [
-            "False Analogy"
+            "False Analogy",
+            "Equivocation"
         ]
     },
     {
@@ -2922,19 +5959,21 @@
         "fallacies": [
             "Nominal Fallacy",
             "Equivocation",
-            "False premise"
+            "Contextomy"
         ]
     },
     {
         "question": "Why don't we use stop signs to prevent human trafficking?",
         "fallacies": [
-            "Accident Fallacy"
+            "Equivocation",
+            "False Analogy"
         ]
     },
     {
         "question": "How do so many horses fit into my car engine?",
         "fallacies": [
-            "Nominal Fallacy"
+            "Nominal Fallacy",
+            "Contextomy"
         ]
     },
     {
@@ -2985,20 +6024,21 @@
     {
         "question": "I scored a 10,194 on my pedometer. Should I stay away from children?",
         "fallacies": [
-            "False Analogy"
+            "Equivocation"
         ]
     },
     {
         "question": "If people during the stone age used stone weapons and during the bronze age they used bronze weapons, did people during the ice age use ice weapons?",
         "fallacies": [
-            "False Analogy"
+            "False Analogy",
+            "False Premise"
         ]
     },
     {
         "question": "Einstein didn't know E=MC^2 until his mid-20s. I knew about it since elementary school. How much smarter does that make me compared to Einstein?",
         "fallacies": [
             "Wrong Direction",
-            "False premise"
+            "False Analogy"
         ]
     },
     {
@@ -3052,7 +6092,8 @@
     {
         "question": "If heat kills germs, and I am sick can I cook myself?",
         "fallacies": [
-            "False Premise"
+            "False Premise",
+            "Accident Fallacy"
         ]
     },
     {
@@ -3088,7 +6129,7 @@
     {
         "question": "Is it true that 4/3 of Americans have trouble with fractions?",
         "fallacies": [
-            "Begging the question"
+            "Self Contradiction"
         ]
     },
     {
