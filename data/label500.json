@@ -303,8 +303,7 @@
     {
         "question": "If I heat my solid state hard drive until it becomes a gaseous state hard drive, would that enable cloud computing?",
         "fallacies": [
-            "Nominal Fallacy",
-            "False Premise"
+            "False Analogy"
         ]
     },
     {
@@ -672,7 +671,6 @@
         "question": "If every action has an equal and opposite reaction, why does no-one love me back?",
         "fallacies": [
             "Equivocation",
-            "False Analogy",
             "Contextomy"
         ]
     },
@@ -5819,8 +5817,6 @@
     {
         "question": "Can I use Office 365 on February 29th?",
         "fallacies": [
-            "Nominal Fallacy",
-            "Equivocation",
             "Equivocation",
             "False Premise"
         ]
