@@ -40,7 +40,7 @@ function getRadarChartData(data) {
     const topData = sortedData.slice(0, radarTopN);
 
     // 3. Define the metrics to process
-    const metrics = ["f1", "fallacy_label_score", "reasoning_score"];
+    const metrics = ["f1", "fallacy_label_score", "explanation_score"];
 
     const result = [];
 
@@ -138,10 +138,10 @@ export default function HomepageFeatures() {
             sortDirections: ['descend', 'ascend'],
         },
         {
-            title: 'Reasoning Score',
-            dataIndex: 'reasoning_score',
-            key: 'reasoning_score',
-            sorter: (a, b) => a.reasoning_score - b.reasoning_score,
+            title: 'Explanation Score',
+            dataIndex: 'explanation_score',
+            key: 'explanation_score',
+            sorter: (a, b) => a.explanation_score - b.explanation_score,
             sortDirections: ['descend', 'ascend'],
         },
         {
@@ -258,7 +258,7 @@ export default function HomepageFeatures() {
                             Moreover, no systematic survey has been conducted to assess how well LLMs navigate such reasoning challenges.
                         </p>
                         <p>
-                            To fill this gap, <strong>SS-Bench</strong> introduces a benchmark with <strong>clear logical error labels</strong>, 
+                            To fill this gap, <strong>SocratesEval</strong> introduces a benchmark with <strong>clear logical error labels</strong>,
                             evaluating LLMs on two key tasks: (1) determining whether a given statement contains a logical error, and 
                             (2) classifying the type of fallacy. We introduce <strong>structured scoring</strong> to assess fallacy 
                             identification and overall reasoning quality, providing a detailed evaluation of LLM performance.
@@ -283,7 +283,7 @@ export default function HomepageFeatures() {
                             verified logical fallacy categories.
                         </p>
                         <p>
-                        <strong>Reasoning Score</strong> assesses how well the model's interpretation of logical errors aligns with human reasoning.
+                        <strong>Explanation Score</strong> assesses how well the model's interpretation of logical errors aligns with human reasoning.
                         </p>
                     </Col>
                 </Row>
