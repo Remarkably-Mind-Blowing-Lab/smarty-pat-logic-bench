@@ -93,7 +93,7 @@ const config = {
           {to: '/dataset', label: 'Dataset Details', position: 'left'},
           {
             href: 'https://github.com/ltroin/SocratesEval',
-            label: 'Row Data',
+            label: 'Raw Data',
             position: 'right',
           },
           {
