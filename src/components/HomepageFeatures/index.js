@@ -23,8 +23,23 @@ const modelFilters = uniqueModels.map((model) => ({text: model, value: model}));
 const uniqueOrgs = [...new Set(resultList.map(record => record.org))];
 const orgFilters = uniqueOrgs.map((org) => ({text: org, value: org}));
 
-const COLORS = ['red', 'volcano', 'orange', 'gold', 'yellow', 'lime',
-    'green', 'cyan', 'blue', 'geekblue', 'purple', 'magenta']
+const COLORS = [
+    '#6BB9F0', // Soft sky blue
+    '#F5AB35', // Warm amber
+    '#FF6F69', // Coral red
+    '#88D8B0', // Mint green
+    '#F3D250', // Sunny yellow
+    '#A593E0', // Soft violet
+    '#79BD9A', // Sage green
+    '#F67280', // Rose pink
+    '#4D9DE0', // Ocean blue
+    '#C06C84', // Dusty mauve
+    '#F8B195', // Peach
+    '#C9CBA3', // Soft khaki
+    '#8D8741', // Olive brown
+    '#FFB447', // Mango orange
+    '#4ECDC4'  // Turquoise]
+]
 const hashString = (string) => string.split('').map((char) => char.charCodeAt(0)).reduce((a, b) => a + b, 0)
 const stringToColor = (string) => COLORS[hashString(string) % COLORS.length];
 
@@ -221,14 +236,14 @@ export default function HomepageFeatures() {
         // <section className={styles.features}>
             <div className="container" style={{marginBottom: "16px"}}>
                 <Row>
-                    <Col span={15}>
+                    <Col span={24}>
                         <Divider orientation="left">Leaderboard</Divider>
                         <div style={{
                             // background: "#EFF2F5",
                             padding: "16px",
-                            textAlign: "center",
-                            marginLeft: "5%",
-                            marginRight: "5%"
+                            textAlign: "center"
+                            // marginLeft: "5%",
+                            // marginRight: "5%"
                         }}>
                             <Table
                                 columns={tableColumns}
@@ -241,52 +256,99 @@ export default function HomepageFeatures() {
                             />
                         </div>
                     </Col>
-                    <Col span={1}></Col>
-                    <Col span={8}>
-                        <Divider orientation="left">Top {radarTopN} F1 Score Models (values normalized to 0.2-1)</Divider>
-                        <div style={{height: "300px"}}>
+                </Row>
+
+                <Row gutter={24} style={{ marginTop: "32px" }}>
+                    <Col span={12}>
+                        <div style={{ marginBottom: "24px" }}>
+                            <Divider orientation="left">Introduction</Divider>
+                            <p>
+                                Despite the growing focus on evaluating LLM reasoning, no existing benchmark specifically targets
+                                &nbsp;<strong>logic traps</strong>—often humorous yet deceptive statements common in English-speaking contexts.
+                                Moreover, no systematic survey has been conducted to assess how well LLMs navigate such reasoning challenges.
+                            </p>
+                            <p>
+                                To fill this gap, <strong>SocratesEval</strong> introduces a benchmark with <strong>clear logical error labels</strong>,
+                                evaluating LLMs on two key tasks: (1) determining whether a given statement contains a logical error, and
+                                (2) classifying the type of fallacy. We introduce <strong>structured scoring</strong> to assess fallacy
+                                identification and overall reasoning quality, providing a detailed evaluation of LLM performance.
+                            </p>
+                            <p>
+                                Our results offer the first comparative analysis of LLMs’ ability to handle logic traps, shedding light on
+                                their reasoning limitations and potential.
+                            </p>
+                        </div>
+                        <div>
+                            <Divider orientation="left">Metrics</Divider>
+                            <p>
+                                <strong>False Positive (FP)</strong> occurs when a logically correct sentence is misclassified as a logical fallacy,
+                                while <strong>False Negative (FN)</strong> means a logical fallacy is mistakenly labeled as correct.
+                            </p>
+                            <p>
+                                <strong>F1 Score</strong> evaluates the model’s ability to distinguish logical errors, balancing precision and recall.
+                            </p>
+                            <p>
+                                <strong>Fallacy Labelling Score</strong> measures how accurately the model classifies sentences into human-annotated and
+                                verified logical fallacy categories.
+                            </p>
+                            <p>
+                                <strong>Explanation Score</strong> assesses how well the model's interpretation of logical errors aligns with human reasoning.
+                            </p>
+                        </div>
+                    </Col>
+                    <Col span={12}>
+                        <Divider orientation="left">Top {radarTopN} F1 Score Models (values normalized to 0.2–1)</Divider>
+                        <div style={{ height: "400px" }}>
                             <MyResponsiveRadar radarChartData={radarChartData} />
                         </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col span={11}>
-                        <Divider orientation="left">Introduction</Divider>
-                        <p>
-                            Despite the growing focus on evaluating LLM reasoning, no existing benchmark specifically targets
-                            &nbsp;<strong>logic traps</strong>—often humorous yet deceptive statements common in English-speaking contexts.
-                            Moreover, no systematic survey has been conducted to assess how well LLMs navigate such reasoning challenges.
-                        </p>
-                        <p>
-                            To fill this gap, <strong>SocratesEval</strong> introduces a benchmark with <strong>clear logical error labels</strong>,
-                            evaluating LLMs on two key tasks: (1) determining whether a given statement contains a logical error, and 
-                            (2) classifying the type of fallacy. We introduce <strong>structured scoring</strong> to assess fallacy 
-                            identification and overall reasoning quality, providing a detailed evaluation of LLM performance.
-                        </p>
-                        <p>
-                            Our results offer the first comparative analysis of LLMs’ ability to handle logic traps, shedding light on 
-                            their reasoning limitations and potential.
-                        </p>
-                    </Col>
-                    <Col span={2}></Col>
-                    <Col span={11}>
-                        <Divider orientation="left">Metrics</Divider>
-                        <p>
-                        <strong>False Positive (FP)</strong> occurs when a logically correct sentence is misclassified as a logical fallacy, 
-                            while <strong>False Negative (FN)</strong> means a logical fallacy is mistakenly labeled as correct.
-                        </p>
-                        <p>
-                        <strong>F1 Score</strong> evaluates the model’s ability to distinguish logical errors, balancing precision and recall.
-                        </p>
-                        <p>
-                        <strong>Fallacy Labelling Score</strong> measures how accurately the model classifies sentences into human-annotated and 
-                            verified logical fallacy categories.
-                        </p>
-                        <p>
-                        <strong>Explanation Score</strong> assesses how well the model's interpretation of logical errors aligns with human reasoning.
-                        </p>
-                    </Col>
-                </Row>
+                    {/*    <Col span={1}></Col>*/}
+                {/*    <Col span={8}>*/}
+                {/*        <Divider orientation="left">Top {radarTopN} F1 Score Models (values normalized to 0.2-1)</Divider>*/}
+                {/*        <div style={{height: "300px"}}>*/}
+                {/*            <MyResponsiveRadar radarChartData={radarChartData} />*/}
+                {/*        </div>*/}
+                {/*    </Col>*/}
+                {/*</Row>*/}
+                {/*<Row>*/}
+                {/*    <Col span={11}>*/}
+                {/*        <Divider orientation="left">Introduction</Divider>*/}
+                {/*        <p>*/}
+                {/*            Despite the growing focus on evaluating LLM reasoning, no existing benchmark specifically targets*/}
+                {/*            &nbsp;<strong>logic traps</strong>—often humorous yet deceptive statements common in English-speaking contexts.*/}
+                {/*            Moreover, no systematic survey has been conducted to assess how well LLMs navigate such reasoning challenges.*/}
+                {/*        </p>*/}
+                {/*        <p>*/}
+                {/*            To fill this gap, <strong>SocratesEval</strong> introduces a benchmark with <strong>clear logical error labels</strong>,*/}
+                {/*            evaluating LLMs on two key tasks: (1) determining whether a given statement contains a logical error, and */}
+                {/*            (2) classifying the type of fallacy. We introduce <strong>structured scoring</strong> to assess fallacy */}
+                {/*            identification and overall reasoning quality, providing a detailed evaluation of LLM performance.*/}
+                {/*        </p>*/}
+                {/*        <p>*/}
+                {/*            Our results offer the first comparative analysis of LLMs’ ability to handle logic traps, shedding light on */}
+                {/*            their reasoning limitations and potential.*/}
+                {/*        </p>*/}
+                {/*    </Col>*/}
+                {/*    <Col span={2}></Col>*/}
+                {/*    <Col span={11}>*/}
+                {/*        <Divider orientation="left">Metrics</Divider>*/}
+                {/*        <p>*/}
+                {/*        <strong>False Positive (FP)</strong> occurs when a logically correct sentence is misclassified as a logical fallacy, */}
+                {/*            while <strong>False Negative (FN)</strong> means a logical fallacy is mistakenly labeled as correct.*/}
+                {/*        </p>*/}
+                {/*        <p>*/}
+                {/*        <strong>F1 Score</strong> evaluates the model’s ability to distinguish logical errors, balancing precision and recall.*/}
+                {/*        </p>*/}
+                {/*        <p>*/}
+                {/*        <strong>Fallacy Labelling Score</strong> measures how accurately the model classifies sentences into human-annotated and */}
+                {/*            verified logical fallacy categories.*/}
+                {/*        </p>*/}
+                {/*        <p>*/}
+                {/*        <strong>Explanation Score</strong> assesses how well the model's interpretation of logical errors aligns with human reasoning.*/}
+                {/*        </p>*/}
+                {/*    </Col>*/}
+                {/*</Row>*/}
                 <Divider orientation="left">Peek into Our Dataset</Divider>
                 <Row>
                     <Col span={24} style={{ textAlign: "center"}}>
