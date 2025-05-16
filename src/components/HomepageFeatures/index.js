@@ -42,43 +42,41 @@ const COLORS = [
 ]
 const hashString = (string) => string.split('').map((char) => char.charCodeAt(0)).reduce((a, b) => a + b, 0)
 const stringToColor = (string) => COLORS[hashString(string) % COLORS.length];
+const orgColorMap = {};
+uniqueOrgs.forEach((org, index) => {
+    orgColorMap[org] = COLORS[index % COLORS.length];
+});
 
 const defaultTitle = () => 'Leaderboard';
 
-const radarTopN = 5;
+const radarTopN = 10;
 
 function getRadarChartData(data) {
-    // 1. Sort data descending by f1 score
-    const sortedData = data.sort((a, b) => b.f1 - a.f1);
+    // Step 1: group by org and pick model with highest F1 for each org
+    const bestByOrg = {};
+    for (const item of data) {
+        const org = item.org;
+        if (!bestByOrg[org] || item.f1 > bestByOrg[org].f1) {
+            bestByOrg[org] = item;
+        }
+    }
 
-    // 2. Select top 3 items
-    const topData = sortedData.slice(0, radarTopN);
-
-    // 3. Define the metrics to process
+    const selectedModels = Object.values(bestByOrg); // one model per org
     const metrics = ["f1", "fallacy_label_score", "explanation_score"];
-
     const result = [];
 
-    // 4. Process each metric
     metrics.forEach(metric => {
-        // Extract metric values from the top data
-        const values = topData.map(item => item[metric]);
+        const values = selectedModels.map(item => item[metric]);
         const minVal = Math.min(...values);
         const maxVal = Math.max(...values);
-
         const metricObj = { metric };
 
-        topData.forEach(item => {
+        selectedModels.forEach(item => {
             const value = item[metric];
-            let normalized;
-            // If all values are equal, assign normalized value 1 (or you could choose 0)
-            if (maxVal - minVal === 0) {
-                normalized = 1;
-            } else {
-                normalized = 0.2 + ((value - minVal) / (maxVal - minVal)) * 0.8;
-            }
-            // Create a key combining org and model
-            metricObj[`${item.org}-${item.model}`] = normalized;
+            const normalized = (maxVal - minVal === 0)
+                ? 1
+                : 0.2 + ((value - minVal) / (maxVal - minVal)) * 0.8;
+            metricObj[item.org] = normalized;
         });
 
         result.push(metricObj);
@@ -87,14 +85,69 @@ function getRadarChartData(data) {
     return result;
 }
 
+
+// function getRadarChartData(data) {
+//     // 1. Sort data descending by f1 score
+//     // Step 1: group by org and pick model with highest F1 for each org
+//     const bestByOrg = {};
+//     const sortedData = data.sort((a, b) => b.f1 - a.f1);
+//
+//     // 2. Select top 3 items
+//     const topData = sortedData.slice(0, radarTopN);
+//
+//     // 3. Define the metrics to process
+//     const metrics = ["f1", "fallacy_label_score", "explanation_score"];
+//
+//     const result = [];
+//
+//     // 4. Process each metric
+//     metrics.forEach(metric => {
+//         // Extract metric values from the top data
+//         const values = topData.map(item => item[metric]);
+//         const minVal = Math.min(...values);
+//         const maxVal = Math.max(...values);
+//
+//         const metricObj = { metric };
+//
+//         topData.forEach(item => {
+//             const value = item[metric];
+//             let normalized;
+//             // If all values are equal, assign normalized value 1 (or you could choose 0)
+//             if (maxVal - minVal === 0) {
+//                 normalized = 1;
+//             } else {
+//                 normalized = 0.2 + ((value - minVal) / (maxVal - minVal)) * 0.8;
+//             }
+//             // Create a key combining org and model
+//             metricObj[`${item.org}-${item.model}`] = normalized;
+//         });
+//
+//         result.push(metricObj);
+//     });
+//
+//     return result;
+// }
+
 function getTopF1ScoreIdentifiers(data) {
-    // Create a shallow copy and sort descending by f1 score
-    const sortedData = data.slice().sort((a, b) => b.f1 - a.f1);
-    // Select the top N objects
-    const topN = sortedData.slice(0, radarTopN);
-    // Map each object to the formatted string "org-model"
-    return topN.map(item => `${item.org}-${item.model}`);
+    const bestByOrg = {};
+    for (const item of data) {
+        const org = item.org;
+        if (!bestByOrg[org] || item.f1 > bestByOrg[org].f1) {
+            bestByOrg[org] = item;
+        }
+    }
+
+    return Object.keys(bestByOrg); // org names
 }
+
+// function getTopF1ScoreIdentifiers(data) {
+//     // Create a shallow copy and sort descending by f1 score
+//     const sortedData = data.slice().sort((a, b) => b.f1 - a.f1);
+//     // Select the top N objects
+//     const topN = sortedData.slice(0, radarTopN);
+//     // Map each object to the formatted string "org-model"
+//     return topN.map(item => `${item.org}-${item.model}`);
+// }
 
 export default function HomepageFeatures() {
     const initRandomData = labelList[Math.floor(Math.random() * labelList.length)];
@@ -205,7 +258,8 @@ export default function HomepageFeatures() {
             dotSize={10}
             dotColor={{ theme: 'background' }}
             dotBorderWidth={2}
-            colors={{ scheme: 'nivo' }}
+            colors={d => orgColorMap[d.key] || '#ccc'}
+            // colors={{ scheme: 'nivo' }}
             blendMode="multiply"
             motionConfig="wobbly"
             legends={[
@@ -219,6 +273,11 @@ export default function HomepageFeatures() {
                     itemTextColor: '#999',
                     symbolSize: 12,
                     symbolShape: 'circle',
+                    data: topIdentifiers.map(org => ({
+                        id: org,
+                        label: org,
+                        color: orgColorMap[org],
+                    })),
                     effects: [
                         {
                             on: 'hover',
@@ -234,13 +293,17 @@ export default function HomepageFeatures() {
 
     return (
         // <section className={styles.features}>
-            <div className="container" style={{marginBottom: "16px"}}>
+            <div className="container" style={{marginBottom: "20px"}}>
                 <Row>
                     <Col span={24}>
-                        <Divider orientation="left">Leaderboard</Divider>
+                        <Divider orientation="center">
+                                <span style={{ fontWeight: 600, fontSize: '22px', letterSpacing: '2px' }}>
+                                    Leaderboard
+                                </span>
+                        </Divider>
                         <div style={{
                             // background: "#EFF2F5",
-                            padding: "16px",
+                            padding: "20px",
                             textAlign: "center"
                             // marginLeft: "5%",
                             // marginRight: "5%"
@@ -261,7 +324,11 @@ export default function HomepageFeatures() {
                 <Row gutter={24} style={{ marginTop: "32px" }}>
                     <Col span={12}>
                         <div style={{ marginBottom: "24px" }}>
-                            <Divider orientation="left">Introduction</Divider>
+                            <Divider orientation="center">
+                                <span style={{ fontWeight: 600, fontSize: '22px', letterSpacing: '2px' }}>
+                                    Introduction
+                                </span>
+                            </Divider>
                             <p>
                                 Despite the growing focus on evaluating LLM reasoning, no existing benchmark specifically targets
                                 &nbsp;<strong>logic traps</strong>—often humorous yet deceptive statements common in English-speaking contexts.
@@ -279,7 +346,11 @@ export default function HomepageFeatures() {
                             </p>
                         </div>
                         <div>
-                            <Divider orientation="left">Metrics</Divider>
+                            <Divider orientation="center">
+                                <span style={{ fontWeight: 600, fontSize: '22px', letterSpacing: '2px' }}>
+                                    Metric
+                                </span>
+                            </Divider>
                             <p>
                                 <strong>False Positive (FP)</strong> occurs when a logically correct sentence is misclassified as a logical fallacy,
                                 while <strong>False Negative (FN)</strong> means a logical fallacy is mistakenly labeled as correct.
@@ -297,13 +368,17 @@ export default function HomepageFeatures() {
                         </div>
                     </Col>
                     <Col span={12}>
-                        <Divider orientation="left">Top {radarTopN} F1 Score Models (values normalized to 0.2–1)</Divider>
+                        <Divider orientation="center">
+                                <span style={{ fontWeight: 600, fontSize: '22px', letterSpacing: '2px' }}>
+                                    Radar Chart: Top F1 Model from Each Family
+                                </span>
+                        </Divider>
                         <div style={{ height: "400px" }}>
                             <MyResponsiveRadar radarChartData={radarChartData} />
                         </div>
                     </Col>
                 </Row>
-                    {/*    <Col span={1}></Col>*/}
+                {/*    <Col span={1}></Col>*/}
                 {/*    <Col span={8}>*/}
                 {/*        <Divider orientation="left">Top {radarTopN} F1 Score Models (values normalized to 0.2-1)</Divider>*/}
                 {/*        <div style={{height: "300px"}}>*/}
@@ -349,7 +424,11 @@ export default function HomepageFeatures() {
                 {/*        </p>*/}
                 {/*    </Col>*/}
                 {/*</Row>*/}
-                <Divider orientation="left">Peek into Our Dataset</Divider>
+                <Divider orientation="center">
+                                <span style={{ fontWeight: 600, fontSize: '22px', letterSpacing: '2px' }}>
+                                    Peek into Our Dataset
+                                </span>
+                </Divider>
                 <Row>
                     <Col span={24} style={{ textAlign: "center"}}>
                         <Button type="primary" size="large" onClick={changeRandomData}>
@@ -357,7 +436,7 @@ export default function HomepageFeatures() {
                         </Button>
                     </Col>
                 </Row>
-                <Row style={{marginTop: "16px", background: "#EFF2F5", padding: "16px"}}>
+                <Row style={{marginTop: "20px", background: "#EFF2F5", padding: "20px"}}>
                     <Col span={6}></Col>
                     <Col span={12}>
                         <Card title="" variant="borderless">

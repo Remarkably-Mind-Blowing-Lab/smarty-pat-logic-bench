@@ -92,6 +92,11 @@ const config = {
           {to: '/submit', label: 'Submit', position: 'left'},
           {to: '/dataset', label: 'Dataset Details', position: 'left'},
           {
+            href: 'https://github.com/ltroin/SocratesEval',
+            label: 'Row Data',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/Remarkably-Mind-Blowing-Lab/smarty-pat-logic-bench/tree/main',
             label: 'GitHub',
             position: 'right',
