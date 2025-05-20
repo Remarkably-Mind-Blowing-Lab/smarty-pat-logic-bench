@@ -6,6 +6,7 @@ import fallacyList from '@site/static/data/fallacies.json';
 import labelList from '@site/static/data/label500.json';
 import {ResponsivePie} from "@nivo/pie";
 
+
 const COLORS = [
     '#6BB9F0', // Soft sky blue
     '#F5AB35', // Warm amber

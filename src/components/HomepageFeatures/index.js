@@ -231,6 +231,7 @@ export default function HomepageFeatures() {
         setRandomData(labelList[Math.floor(Math.random() * labelList.length)])
     };
 
+
     const radarChartData = getRadarChartData(resultList);
 
     const topIdentifiers = getTopF1ScoreIdentifiers(resultList);
